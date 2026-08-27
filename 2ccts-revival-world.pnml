@@ -1,31 +1,12 @@
-// define the newgrf
-grf {
-	grfid:	"VN+\01";
-	name:	string(STR_GRF_NAME);
-	desc:	string(STR_GRF_DESCRIPTION);
-	url:    string(STR_GRF_URL);
-	version:		REPO_REVISION;
-	min_compatible_version:	6630;
-}
-
-//override 2ccts_revival if loaded
-if(grf_future_status("VN\01\01") == 1) {
-    if(!grf_order_behind("VN\01\01")) {
-        error(FATAL, MUST_LOAD_AFTER, "2cc Trains in NML (Revival)");
-    }
-	engine_override("VN\01\01");
-} else {
-    error(FATAL, USED_WITH, "2cc Trains in NML (Revival)");
-}
+#include "src/header.pnml"
+#include "src/badgetable.pnml"
+#include "src/railtypetable.pnml"
 
 #include "src/_Badges/builder.pnml"
 #include "src/_Badges/flags.pnml"
 #include "src/_Badges/gauge.pnml"
 #include "src/_Badges/power.pnml"
 #include "src/_Badges/regions.pnml"
-
-#include "src/badgetable.pnml"
-#include "src/railtypetable.pnml"
 
 #define _PASTE2(X, Y) X ## Y
 #define TRAIN(ID, NAME, COUNTRY, POWER, GAUGE, ...) \
@@ -692,20 +673,20 @@ TRAIN(7051, dmu_Australia_Queensland_Rail_Diesel_Tilt_Train, AU, DIESEL, NAR_CAP
 TRAIN(7052, dmu_Canada_UP_Express_Nippon_Sharyo_DMU, CA, DIESEL, STD, "builder/nippon_sharyo")
 // Revival
 TRAIN(7054, dmu_Argentina_FCGU_CMM_400_2, AR, DIESEL, STD,)
-// TODO: TRAIN(7055, dmu_Argentina_Ganz_ARPAD_CMU_4701_Transandino, AR, DIESEL, NAR_METRE,)
-// TODO: TRAIN(7056, dmu_Australia_NSW_1100, AU, DIESEL, STD,)
-// TODO: TRAIN(7057, dmu_Thailand_Comeng_XPT_Concept, TH, DIESEL, NAR_METRE,)
-// TODO: TRAIN(7058, dmu_Australia_Comeng_XPT, AU, DIESEL, BRD_IRISH,)
-// TODO: TRAIN(7059, dmu_Australia_NSW_900, AU, DIESEL, STD,)
-// TODO: TRAIN(7060, dmu_Australia_NSW_600, AU, DIESEL, STD,)
-// TODO: TRAIN(7061, dmu_New_Zealand_Silver_Fern, NZ, DIESEL, NAR_CAPE)
-// TODO: TRAIN(7062, dmu_Hungary_MAV_Hargita_M440, HU, DIESEL, STD,) 
-// TODO: TRAIN(7063, dmu_Lithuania_RVR_DR1A, LT, DIESEL, BRD_RUSSIAN)
-// TODO: TRAIN(7064, dmu_acme_corp__v200d_dmu, )
-// TODO: TRAIN(7065, dmu_stadler_flirt_powerpack_dmu, )
+TRAIN(7055, dmu_Argentina_FA_CMU_4700_Transandino, AR, DIESEL, NAR_METRE,)
+TRAIN(7056, dmu_Australia_NSW_1100, AU, DIESEL, STD,)
+TRAIN(7057, dmu_Thailand_SRT_XPT_Concept, TH, DIESEL, NAR_METRE,)
+TRAIN(7058, dmu_Australia_Comeng_XPT, AU, DIESEL, BRD_IRISH,)
+TRAIN(7059, dmu_Australia_NSW_900, AU, DIESEL, STD,)
+TRAIN(7060, dmu_Australia_NSW_600, AU, DIESEL, STD,)
+TRAIN(7061, dmu_New_Zealand_RM_Silver_Fern, NZ, DIESEL, NAR_CAPE)
+TRAIN(7062, dmu_Hungary_MAV_M440_Hargita, HU, DIESEL, STD,)
+TRAIN(7063, dmu_Lithuania_Lithuanian_Railways_DR1A, LT, DIESEL, BRD_RUSSIAN)
+// TRAIN(7064, dmu_acme_corp__v200d_dmu, )
+// TRAIN(7065, dmu_stadler_flirt_powerpack_dmu, )
 // Narrow
-// TRAIN(dmu_France_CFC_X_97050, FR, DIESEL, NAR_METRE,)
-// TRAIN(dmu_Cambodia_Royal_Railway_ZZ_800, KH, DIESEL, NAR_METRE,)
+TRAIN(7800, dmu_France_CFC_X_97050, FR, DIESEL, NAR_METRE,)
+TRAIN(7801, dmu_Cambodia_Royal_Railway_ZZ_800, KH, DIESEL, NAR_METRE,)
 
 //Cargo DMU
 TRAIN(15501, cargodmu_Germany_DB_691_CargoSprinter, DE, DIESEL, STD,)

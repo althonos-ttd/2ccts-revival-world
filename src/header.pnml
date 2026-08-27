@@ -1,0 +1,18 @@
+grf {
+	grfid:	"VN+W";
+	name:	string(STR_GRF_NAME);
+	desc:	string(STR_GRF_DESCRIPTION);
+	url:    string(STR_GRF_URL);
+	version:		REPO_REVISION;
+	min_compatible_version:	6630;
+}
+
+//override 2ccts_revival if loaded
+if(grf_future_status("VN\01\01") == 1) {
+    if(!grf_order_behind("VN\01\01")) {
+        error(FATAL, MUST_LOAD_AFTER, "2cc Trains in NML (Revival)");
+    }
+	engine_override("VN\01\01");
+} else {
+    error(FATAL, USED_WITH, "2cc Trains in NML (Revival)");
+}

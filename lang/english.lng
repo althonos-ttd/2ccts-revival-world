@@ -699,6 +699,16 @@ str_dmu_Portugal_CP_0600 :CP 0600 (DMU)
 str_dmu_Spain_FEVE_2400_Apollos :FEVE 2400 'Apollos' (DMU)
 str_dmu_France_CFC_X_97050  :CFC X 97050 (DMU)
 str_dmu_Cambodia_Royal_Railway_ZZ_800    :Royal Railway ZZ 800 (DMU)
+str_dmu_Argentina_FA_CMU_4700_Transandino   :FA CMU 4700 'Transandino' (DMU)
+str_dmu_Australia_NSW_1100  :NSW 1100 'Budd' (DMU)
+str_dmu_Thailand_SRT_XPT_Concept    :SRT XPT Concept (DMU)
+str_dmu_Australia_Comeng_XPT        :NSW XPT (DMU)
+str_dmu_Australia_NSW_900           :NSWGR 900/800 'DEB' (DMU)
+str_dmu_Australia_NSW_600           :NSWGR 600/700 (DMU)
+str_dmu_New_Zealand_RM_Silver_Fern  :NZR RM 'Silver Fern' (DMU)
+str_dmu_Hungary_MAV_M440_Hargita    :MAV M440 'Hargita' (DMU)
+str_dmu_Lithuania_Lithuanian_Railways_DR1A  :Lithuanian Railways DR1A (DMU)
+
 
 #CargoDMU
 str_cargodmu_Germany_DB_691_CargoSprinter	:DB 691 'CargoSprinter' (Cargo DMU)
