@@ -5,6 +5,7 @@
 #define BADGE_POWER_PETROL      "power/gasoline"
 #define BADGE_POWER_STEAM       "power/steam"
 #define BADGE_POWER_TURBINE     "power/diesel"
+#define BADGE_POWER_METRO       "power/metro"
 
 item(FEAT_BADGES, badge_power) {
     property {

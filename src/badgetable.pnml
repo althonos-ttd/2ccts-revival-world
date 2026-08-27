@@ -142,6 +142,7 @@ badgetable {
     "power/hydrogen",
     "power/steam",
     "power/turbine",
+    "power/metro",
 
     /* Region */
     "region",

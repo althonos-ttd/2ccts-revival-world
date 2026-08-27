@@ -8,7 +8,7 @@ grf {
 	min_compatible_version:	6630;
 }
 
-//override 2ccNML if loaded
+//override 2ccts_revival if loaded
 if(grf_future_status("VN\01\01") == 1) {
     if(!grf_order_behind("VN\01\01")) {
         error(FATAL, MUST_LOAD_AFTER, "2cc Trains in NML (Revival)");
@@ -816,73 +816,89 @@ TRAIN(8072, emu_Europe_Sureot, europe, ELECTRIC_AC, STD,)
 // //Cargo EMU
 // TRAIN(cargoemu_Japan_JR_Freight_M250, JP, ELECTRIC_DC, NAR_CAPE)
 
-// //Metro
-// //9000 free
-// //9001 free
-// item(FEAT_TRAINS, item_mtro_UK_London_1903_Stock, 9002) {}
-// //9003 free
-// item(FEAT_TRAINS, item_mtro_Argentina_Le_Brugeoise, 9004) {}
-// //9005 free
-// item(FEAT_TRAINS, item_mtro_USA_NY_R1, 9006) {}
-// item(FEAT_TRAINS, item_mtro_UK_London_1938_Stock, 9007) {}
-// item(FEAT_TRAINS, item_mtro_Germany_DB_ET_171, 9008) {}
-// item(FEAT_TRAINS, item_mtro_France_Paris_M2_840, 9009) {}
-// item(FEAT_TRAINS, item_mtro_Portugal_Lisbon_ML7, 9010) {}
-// item(FEAT_TRAINS, item_mtro_Hungary_Budapest_Ev3_200, 9011) {}
-// item(FEAT_TRAINS, item_mtro_Norway_Oslo_T1000, 9012) {}
-// item(FEAT_TRAINS, item_mtro_Canada_Toronto_H_series, 9013) {}
-// item(FEAT_TRAINS, item_mtro_Germany_Munchen_MVG_A2, 9014) {}
-// item(FEAT_TRAINS, item_mtro_USA_NY_R44, 9015) {}
-// item(FEAT_TRAINS, item_mtro_Netherlands_Amsterdam_Type_M1, 9016) {}
-// item(FEAT_TRAINS, item_mtro_Sweden_Stockholm_C8, 9017) {}
-// item(FEAT_TRAINS, item_mtro_North_Korea_Pyongyang_D_stock, 9018) {}
-// item(FEAT_TRAINS, item_mtro_Finland_Helsinki_M100, 9019) {}
-// item(FEAT_TRAINS, item_mtro_Brazil_Sao_Paulo_Serie_5500, 9020) {}
-// item(FEAT_TRAINS, item_mtro_Russia_Moscow_81_720, 9021) {}
-// item(FEAT_TRAINS, item_mtro_Japan_Tokyo_S01, 9022) {}
-// item(FEAT_TRAINS, item_mtro_Egypt_Cairo_1987_Stock, 9023) {}
-// item(FEAT_TRAINS, item_mtro_UK_DLR_P86, 9024) {}
-// item(FEAT_TRAINS, item_mtro_Russia_Moscow_81_7175M, 9025) {}
-// item(FEAT_TRAINS, item_mtro_USA_Boston_01800, 9026) {}
-// item(FEAT_TRAINS, item_mtro_USA_LA_A650, 9027) {}
-// item(FEAT_TRAINS, item_mtro_Taiwan_Taipei_C301, 9028) {}
-// item(FEAT_TRAINS, item_mtro_France_Paris_MP89, 9029) {}
-// item(FEAT_TRAINS, item_mtro_Netherlands_Amsterdam_CAF_90, 9030) {}
-// item(FEAT_TRAINS, item_mtro_Russia_Moscow_81_740, 9031) {}
-// item(FEAT_TRAINS, item_mtro_Singapore_Singapore_C830_Metropolis, 9032) {}
-// item(FEAT_TRAINS, item_mtro_Norway_Oslo_MX3000, 9033) {}
-// item(FEAT_TRAINS, item_mtro_Japan_Osaka_30000, 9034) {}
-// item(FEAT_TRAINS, item_mtro_Singapore_Singapore_C151A, 9035) {}
-// item(FEAT_TRAINS, item_mtro_USA_Washington_7000, 9036) {}
-// item(FEAT_TRAINS, item_mtro_Greece_Thessaloniki_2014, 9037) {}
-// item(FEAT_TRAINS, item_mtro_Germany_Berlin_U_Bahn_A_I, 9038) {}
-// item(FEAT_TRAINS, item_mtro_USA_NY_Hedley_Hi_V, 9039) {}
-// item(FEAT_TRAINS, item_mtro_Japan_Osaka_1000, 9040) {}
-// item(FEAT_TRAINS, item_mtro_Russia_Moscow_Type_A, 9041) {}
-// item(FEAT_TRAINS, item_mtro_USA_NY_R10, 9042) {}
-// item(FEAT_TRAINS, item_mtro_Italy_Rome_MR_100, 9043) {}
-// item(FEAT_TRAINS, item_mtro_Russia_Moscow_Type_D, 9044) {}
-// item(FEAT_TRAINS, item_mtro_Netherlands_Rotterdam_MG2_Type_M, 9045) {}
-// item(FEAT_TRAINS, item_mtro_Czech_Republic_Prague_ECS_Set, 9046) {}
-// item(FEAT_TRAINS, item_mtro_Argentina_Buenos_Aires_Serie_1200, 9047) {}
-// item(FEAT_TRAINS, item_mtro_Chile_Santiago_NS_93, 9048) {}
-// item(FEAT_TRAINS, item_mtro_Chile_Santiago_AS_2002, 9049) {}
-// item(FEAT_TRAINS, item_mtro_Brazil_Recife_VLT_Mobile_3, 9050) {}
-// item(FEAT_TRAINS, item_mtro_Spain_Madrid_Series_5000, 9051) {}
-// item(FEAT_TRAINS, item_mtro_Italy_Rome_S_300, 9052) {}
-// item(FEAT_TRAINS, item_mtro_Algeria_Algiers_CAF_2011_Stock, 9053) {}
-// item(FEAT_TRAINS, item_mtro_Germany_Berlin_U_Bahn_IK, 9054) {}
-// item(FEAT_TRAINS, item_mtro_USA_Chicago_L_6000, 9055) {}
-// //Revival TODO
-// // item(FEAT_TRAINS, item_mtro_brooklyn_union_gate_elevated, 9056) {}
-// // item(FEAT_TRAINS, item_mtro_brel_abb_london_1992_stock, 9057) {}
-// // item(FEAT_TRAINS, item_mtro_bombardier_movia_london_s_stock, 9058) {}
-// // item(FEAT_TRAINS, item_mtro_metro_cammell_london_1972_stock, 9059) {}
-// // item(FEAT_TRAINS, item_mtro_metro_cammell_london_1959_stock, 9060) {}
-// // item(FEAT_TRAINS, item_mtro_kawasaki_hi_c151, 9061) {}
-// // item(FEAT_TRAINS, item_mtro_kawasaki_hi___nippon_sharyo_c751b, 9062) {}
-// // item(FEAT_TRAINS, item_mtro_comeng_light_metro_prototype, 9063) {}
-// // item(FEAT_TRAINS, item_mtro_abb_henschel_berlin_bvg_f74, 9064) {}
-// // item(FEAT_TRAINS, item_mtro_adtranz_berlin_bvg_h, 9065) {}
-// // item(FEAT_TRAINS, item_mtro_ganz_hunslet_budapest_g2, 9066) {}
-// item(FEAT_TRAINS, item_mtro_alstom_metropolis, 9067) {}
+#define METRO(ID, NAME, COUNTRY, ...) \
+    item(FEAT_TRAINS, _PASTE2(item_, NAME), ID) { \
+        property { \
+            name: string(_PASTE2(str_, NAME)); \
+            badges: [_PASTE2(BADGE_FLAG_, COUNTRY), _PASTE2(BADGE_REGION_, COUNTRY), BADGE_POWER_METRO, __VA_ARGS__]; \
+            track_type: [MTRO]; \
+        }\
+    }
+
+//Single Unit Metro
+METRO(14000, singlemtro_USA_Brooklyn_Union_Gate_Car, US)
+METRO(14001, singlemtro_Hungary_Budapest_1894_Stock, HU)
+METRO(14002, singlemtro_USA_Chicago_L_Northwest_Elevated_1907_Stock, US)
+METRO(14003, singlemtro_Germany_Berlin_U_Bahn_C_II, DE)
+METRO(14004, singlemtro_USA_NYC_MU_Car, US)
+
+//Metro
+//9000 free
+//9001 free
+METRO(9002, mtro_UK_London_1903_Stock, GB)
+//9003 free
+METRO(9004, mtro_Argentina_Le_Brugeoise, AR)
+//9005 free
+METRO(9006, mtro_USA_NY_R1, US)
+METRO(9007, mtro_UK_London_1938_Stock, GB)
+METRO(9008, mtro_Germany_DB_ET_171, DE)
+METRO(9009, mtro_France_Paris_M2_840, FR)
+METRO(9010, mtro_Portugal_Lisbon_ML7, PT)
+METRO(9011, mtro_Hungary_Budapest_Ev3_200, HU)
+METRO(9012, mtro_Norway_Oslo_T1000, NO)
+METRO(9013, mtro_Canada_Toronto_H_series, CA)
+METRO(9014, mtro_Germany_Munchen_MVG_A2, DE)
+METRO(9015, mtro_USA_NY_R44, US)
+METRO(9016, mtro_Netherlands_Amsterdam_Type_M1, NL)
+METRO(9017, mtro_Sweden_Stockholm_C8, SE)
+METRO(9018, mtro_North_Korea_Pyongyang_D_stock, KP)
+METRO(9019, mtro_Finland_Helsinki_M100, FI)
+METRO(9020, mtro_Brazil_Sao_Paulo_Serie_5500, BR)
+METRO(9021, mtro_Russia_Moscow_81_720, RU)
+METRO(9022, mtro_Japan_Tokyo_S01, JP)
+METRO(9023, mtro_Egypt_Cairo_1987_Stock, EG)
+METRO(9024, mtro_UK_DLR_P86, GB)
+METRO(9025, mtro_Russia_Moscow_81_7175M, RU)
+METRO(9026, mtro_USA_Boston_01800, US)
+METRO(9027, mtro_USA_LA_A650, US)
+METRO(9028, mtro_Taiwan_Taipei_C301, TW)
+METRO(9029, mtro_France_Paris_MP89, FR)
+METRO(9030, mtro_Netherlands_Amsterdam_CAF_90, NL)
+METRO(9031, mtro_Russia_Moscow_81_740, RU)
+METRO(9032, mtro_Singapore_Singapore_C830_Metropolis, SG)
+METRO(9033, mtro_Norway_Oslo_MX3000, NO)
+METRO(9034, mtro_Japan_Osaka_30000, JP)
+METRO(9035, mtro_Singapore_Singapore_C151A, SG)
+METRO(9036, mtro_USA_Washington_7000, US)
+METRO(9037, mtro_Greece_Thessaloniki_2014, GR)
+METRO(9038, mtro_Germany_Berlin_U_Bahn_A_I, DE)
+METRO(9039, mtro_USA_NY_Hedley_Hi_V, US)
+METRO(9040, mtro_Japan_Osaka_1000, JP)
+METRO(9041, mtro_Russia_Moscow_Type_A, RU)
+METRO(9042, mtro_USA_NY_R10, US)
+METRO(9043, mtro_Italy_Rome_MR_100, IT)
+METRO(9044, mtro_Russia_Moscow_Type_D, RU)
+METRO(9045, mtro_Netherlands_Rotterdam_MG2_Type_M, NL)
+METRO(9046, mtro_Czech_Republic_Prague_ECS_Set, CZ)
+METRO(9047, mtro_Argentina_Buenos_Aires_Serie_1200, AR)
+METRO(9048, mtro_Chile_Santiago_NS_93, CL)
+METRO(9049, mtro_Chile_Santiago_AS_2002, CL)
+METRO(9050, mtro_Brazil_Recife_VLT_Mobile_3, BR)
+METRO(9051, mtro_Spain_Madrid_Series_5000, ES)
+METRO(9052, mtro_Italy_Rome_S_300, IT)
+METRO(9053, mtro_Algeria_Algiers_CAF_2011_Stock, DZ)
+METRO(9054, mtro_Germany_Berlin_U_Bahn_IK, DE)
+METRO(9055, mtro_USA_Chicago_L_6000, US)
+//Revival
+METRO(9056, mtro_US_Brooklyn_Union_Gate_Elevated, US)
+METRO(9057, mtro_UK_London_1992_Stock, GB)
+METRO(9058, mtro_UK_London_S_Stock, GB)
+METRO(9059, mtro_UK_London_1972_Stock, GB)
+METRO(9060, mtro_UK_London_1959_Stock, GB)
+METRO(9061, mtro_Singapore_Singapore_C151, SG)
+METRO(9062, mtro_Singapore_Singapore_C751B, SG)
+// TODO: METRO(9063, mtro_comeng_light_metro_prototype)
+METRO(9064, mtro_Germany_Berlin_BVG_F74, DE)
+METRO(9065, mtro_Germany_Berlin_BVG_H, DE)
+METRO(9066, mtro_Hungary_Budapest_G2, HU)
+// TODO: METRO(9067, mtro_alstom_metropolis)
