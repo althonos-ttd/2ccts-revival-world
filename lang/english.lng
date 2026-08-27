@@ -663,7 +663,15 @@ str_electric_Germany_DRG_E44                :DRG E44 (Electric)
 str_electric_Poland_PKP_PESA_111MS          :PKP Intercity 111MS (Electric)
 str_electric_Azerbaijan_Azerbaijan_Railways_VL19    :Azerbaijan Railways VL19 (Electric)
 str_electric_Germany_DRG_E18                :DRG E18 (Electric)
-
+str_electric_India_Indian_Railways_WAM_4    :Indian Railways WAM-4 (Electric)
+str_electric_India_Indian_Railways_WAM_1    :Indian Railways WAM-1 (Electric)
+str_electric_Brazil_FEPASA_2200             :FEPASA 2200 'Francesa' (Electric)
+str_electric_Chile_SQM_E650                 :SQM E650 (Electric)
+str_electric_Chile_EFE_E32                  :EFE E-32 (Electric)
+str_electric_USA_NYC_T_motor                :NYC T-motor (Electric)
+str_electric_USA_Pennsylvania_Railroad_DD1  :Pennsylvania Railroad DD1 (Electric)
+str_electric_France_SNCF_CC_7100            :SNCF CC 7100 (Electric)
+str_electric_Russia_RZD_F                   :RZD F (Electric)
 
 #Dual Mode
 str_dual_Ecuador_FEEP_TD2000    :FEEP TD2000 (Dual Mode)
@@ -829,7 +837,7 @@ str_singlemtro_USA_Brooklyn_Union_Gate_Car					:Brooklyn Union Gate Car (Single 
 str_singlemtro_Hungary_Budapest_1894_Stock					:Budapest 1894 Stock (Single Unit Metro)
 str_singlemtro_USA_Chicago_L_Northwest_Elevated_1907_Stock	:Chicago L Northwest Elevated 1907 Stock (Single Unit Metro)
 str_singlemtro_Germany_Berlin_U_Bahn_C_II					:Berlin U-Bahn C II (Single Unit Metro)
-str_singlemtro_USA_NYC_MU_Car                               :New York Central MU Car (Metro)
+str_singlemtro_USA_NYC_MU_Car                               :NYC MU Car (Metro)
 
 #Multiple Unit Metro
 str_mtro_UK_London_1903_Stock					:London 1903 Stock (Metro)
