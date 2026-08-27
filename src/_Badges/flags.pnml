@@ -3,6 +3,7 @@
 #define BADGE_FLAG_AR "flag/AR"
 #define BADGE_FLAG_AT "flag/AT"
 #define BADGE_FLAG_AU "flag/AU"
+#define BADGE_FLAG_AZ "flag/AZ"
 #define BADGE_FLAG_BB "flag/BB"
 #define BADGE_FLAG_BD "flag/BD"
 #define BADGE_FLAG_BE "flag/BE"

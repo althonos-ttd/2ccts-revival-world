@@ -3,6 +3,7 @@
 #define BADGE_REGION_AR "region/america", "region/america/south"
 #define BADGE_REGION_AT "region/europe",  "region/europe/western"
 #define BADGE_REGION_AU "region/oceania", "region/oceania/australia_and_new_zealand"
+#define BADGE_REGION_AZ "region/asia",    "region/asia/western"
 #define BADGE_REGION_BB "region/america", "region/america/caribbean"
 #define BADGE_REGION_BD "region/asia",    "region/asia/southern"
 #define BADGE_REGION_BE "region/europe",  "region/europe/western"
