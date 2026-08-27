@@ -638,6 +638,32 @@ str_electric_Switzerland_MOB_Ge_4_4_8000    :MOB Ge 4/4 8000 (Electric)
 str_electric_Chile_SQM_600_GE_289A  :SQM 600 GE 289A (Electric)
 str_electric_Venezuela_La_Guaira_Caracas_19_23  :La Guaira & Caracas 19-23 (Electric)
 str_electric_Chile_FCTC_E_100   :FCTC E-100 (Electric)
+str_electric_Congo_BCK_Type_2450    :BCK Type 2450 (Electric)
+str_electric_Poland_KWB_Konin_EL2   :KWB Konin EL2 (Electric)
+str_electric_Poland_PKP_ET22        :PKP ET22 (Electric)
+str_electric_India_Indian_Railways_WAG_6B_C :Indian Railways WAG-6B/C
+str_electric_South_Africa_SAR_10E           :SAR 10E (Electric)
+str_electric_South_Africa_SAR_9E_s1         :SAR 9E Series 1 (Electric)
+str_electric_Morocco_ONCF_E_1100            :ONCF E 1100 (Electric)
+str_electric_Tanzania_TRC_E6800             :TRC E6800 (Electric)
+str_electric_Hungary_MAV_V63                :MAV V63 (Electric)
+str_electric_Australia_QR_3500              :Queensland Railways 3500/3600 (Electric)
+str_electric_Australia_NSW_85               :NSW State Rail Authority 85 (Electric)
+str_electric_Australia_NSW_86               :NSW State Rail Authority 86 (Electric) 
+str_electric_Australia_SRA_8650             :NSW State Rail Authority No. 8650 'Tri-Bo' (Electric)
+str_electric_Australia_NSW_46               :NSWR 46 (Electric)
+str_electric_Brazil_CPEF_No_320             :CPEF No. 320 (Electric)
+str_electric_Brazil_GE_2CC2                 :CPEF GE 2-C+C-2 (Electric)
+str_electric_China_China_Railways_HXD2      :China Railways HXD2 (Electric)
+str_electric_China_China_Railways_SS8       :China Railways SS8 (Electric)
+str_electric_China_China_Railways_HXD2B     :China Railways HXD2B (Electric)
+str_electric_China_China_Railways_HXD3D     :China Railways HXD3D (Electric)
+str_electric_Hungary_MAV_V40                :MAV V40 (Electric)
+str_electric_Germany_DRG_E44                :DRG E44 (Electric)
+str_electric_Poland_PKP_PESA_111MS          :PKP Intercity 111MS (Electric)
+str_electric_Azerbaijan_Azerbaijan_Railways_VL19    :Azerbaijan Railways VL19 (Electric)
+str_electric_Germany_DRG_E18                :DRG E18 (Electric)
+
 
 #Dual Mode
 str_dual_Ecuador_FEEP_TD2000    :FEEP TD2000 (Dual Mode)
@@ -712,6 +738,10 @@ str_dmu_Lithuania_Lithuanian_Railways_DR1A  :Lithuanian Railways DR1A (DMU)
 
 #CargoDMU
 str_cargodmu_Germany_DB_691_CargoSprinter	:DB 691 'CargoSprinter' (Cargo DMU)
+
+#CargoEMU
+str_cargoemu_Japan_JR_Freight_M250              :JR Freight M250 (Cargo EMU)
+str_cargoemu_Japan_JNR_Container_Bullet_Train   :JNR Container Bullet Train (Cargo EMU)
 
 #EMU
 str_emu_Netherlands_NS_Mat24 				:NS Mat'24 (EMU)
@@ -864,6 +894,7 @@ str_mtro_Singapore_Singapore_C751B              :Singapore C751B (Metro)
 str_mtro_Germany_Berlin_BVG_F74                 :Berlin BVG F74 (Metro)
 str_mtro_Germany_Berlin_BVG_H                   :Berlin BVG H (Metro)
 str_mtro_Hungary_Budapest_G2                    :Budapest G2 (Metro)
+str_mtro_Poland_Varsaw_98B_Metropolis           :Varsaw 98B 'Metropolis' (Metro)
 
 #Maglev railbus
 str_rbm_World_Turbobus		:Turbobus (Maglev)
