@@ -8,19 +8,37 @@
 #include "src/_Badges/power.pnml"
 #include "src/_Badges/regions.pnml"
 
-#define _PASTE2(X, Y) X ## Y
+#define TRAIN_ITEM(NAME) item_ ## NAME
+#define TRAIN_NAME(NAME) string(str_ ## NAME)
+
+#define BADGE_REGION(COUNTRY)  BADGE_REGION_ ## COUNTRY
+#define BADGE_FLAG(COUNTRY)    BADGE_FLAG_   ## COUNTRY
+#define BADGE_POWER(POWER)     BADGE_POWER_  ## POWER
+#define BADGE_GAUGE(GAUGE)     BADGE_GAUGE_  ## GAUGE
+
+#define POWERTYPE_IS_ELECTRIC(POWER) POWERTYPE_ ## POWER
+#define POWERTYPE_STEAM 0
+#define POWERTYPE_DIESEL 0
+#define POWERTYPE_ELECTRIC    1
+#define POWERTYPE_ELECTRIC_AC 1
+#define POWERTYPE_ELECTRIC_DC 1
+#define POWERTYPE_PETROL 0
+#define POWERTYPE_TURBINE 0
+
+#define RAILTYPE(GAUGE, POWER) (POWERTYPE_IS_ELECTRIC(POWER)) ? RAILTYPE_ELEC_ ## GAUGE : RAILTYPE_ ## GAUGE
+
 #define TRAIN(ID, NAME, COUNTRY, POWER, GAUGE, ...) \
-    item(FEAT_TRAINS, _PASTE2(item_, NAME), ID) { \
+    item(FEAT_TRAINS, TRAIN_ITEM(NAME), ID) { \
         property { \
-            name: string(_PASTE2(str_, NAME)); \
-            badges: [_PASTE2(BADGE_FLAG_, COUNTRY), _PASTE2(BADGE_REGION_, COUNTRY), _PASTE2(BADGE_POWER_, POWER), _PASTE2(BADGE_GAUGE_, GAUGE), __VA_ARGS__]; \
-            track_type: [_PASTE2(RAILTYPE_, GAUGE)]; \
+            name: TRAIN_NAME(NAME); \
+            badges: [BADGE_FLAG(COUNTRY), BADGE_REGION(COUNTRY), BADGE_POWER(POWER), BADGE_GAUGE(GAUGE), __VA_ARGS__]; \
+            track_type: RAILTYPE(GAUGE, POWER); \
         }\
     }
 
 //Railbus-Steam
 TRAIN(1000, rbs_Austria_NOLB_1_3, AT, STEAM, NAR_BOSNIAN, "builder/komarek")
-TRAIN(1001, rbs_Italy_FS_86, IT, STEAM, STD, )
+TRAIN(1001, rbs_Italy_FS_86, IT, STEAM, STD,)
 TRAIN(1002, rbs_Australia_Victorian_Railways_Rowan_Railmotor, AU, STEAM, BRD_IRISH,)
 TRAIN(1003, rbs_Switzerland_UeBB_Czm_1_2, CH, STEAM, STD,)
 TRAIN(1004, rbs_Germany_Bavarian_MCCi, DE, STEAM, STD,)
@@ -820,10 +838,10 @@ TRAIN(19000, cargoemu_Japan_JR_Freight_M250, JP, ELECTRIC_DC, NAR_CAPE)
 TRAIN(19002, cargoemu_Japan_JNR_Container_Bullet_Train, JP, ELECTRIC_DC, NAR_CAPE)
 
 #define METRO(ID, NAME, COUNTRY, ...) \
-    item(FEAT_TRAINS, _PASTE2(item_, NAME), ID) { \
+    item(FEAT_TRAINS, TRAIN_ITEM(NAME), ID) { \
         property { \
-            name: string(_PASTE2(str_, NAME)); \
-            badges: [_PASTE2(BADGE_FLAG_, COUNTRY), _PASTE2(BADGE_REGION_, COUNTRY), BADGE_POWER_METRO, __VA_ARGS__]; \
+            name: TRAIN_NAME(NAME); \
+            badges: [BADGE_FLAG(COUNTRY), BADGE_REGION(COUNTRY), BADGE_POWER_METRO, __VA_ARGS__]; \
             track_type: [MTRO]; \
         }\
     }
