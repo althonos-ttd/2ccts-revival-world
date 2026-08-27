@@ -1,0 +1,24 @@
+railtypetable {
+    RAIL,
+	ELRL,
+	MONO,
+	MGLV,
+	MTRO: [SAB3, "3RDR", MTRO, MONO], // fall back to monorail if no Metro-tracks are available
+	NARR: [NAAN, RAIL],
+	ELNR: [NAAE, ELRL],
+}
+
+#define RAILTYPE_STD  		  RAIL
+#define RAILTYPE_NAR_2FT      NARR
+#define RAILTYPE_NAR_3FT      NARR
+#define RAILTYPE_NAR_750MM    NARR
+#define RAILTYPE_NAR_BOSNIAN  NARR
+#define RAILTYPE_NAR_CAPE     NARR
+#define RAILTYPE_NAR_METRE    NARR
+#define RAILTYPE_NAR_ITMETRE  NARR
+#define RAILTYPE_BRD_BRUNEL   RAIL
+#define RAILTYPE_BRD_DUTCH    RAIL
+#define RAILTYPE_BRD_IBERIAN  RAIL
+#define RAILTYPE_BRD_INDIAN   RAIL
+#define RAILTYPE_BRD_IRISH	  RAIL
+#define RAILTYPE_BRD_RUSSIAN  RAIL
