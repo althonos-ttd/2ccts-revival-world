@@ -7,6 +7,7 @@
 #define BADGE_GAUGE_NAR_CAPE    "railgauge/narrow/cape",          "railgauge/narrow"
 #define BADGE_GAUGE_NAR_ITMETRE "railgauge/narrow/italian_metre", "railgauge/narrow"
 #define BADGE_GAUGE_NAR_METRE   "railgauge/narrow/metre",         "railgauge/narrow"
+#define BADGE_GAUGE_NAR_SE3FT   "railgauge/narrow/swedish_3ft",   "railgauge/narrow"
 #define BADGE_GAUGE_BRD         "railgauge/broad"
 #define BADGE_GAUGE_BRD_BRUNEL  "railgauge/broad/brunel",         "railgauge/broad"
 #define BADGE_GAUGE_BRD_DUTCH   "railgauge/broad/dutch",          "railgauge/broad"

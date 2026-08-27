@@ -1,4 +1,5 @@
 #define BADGE_POWER_DIESEL      "power/diesel"
+#define BADGE_POWER_DUAL        "power/dual"
 #define BADGE_POWER_ELECTRIC    "power/electric"
 #define BADGE_POWER_ELECTRIC_AC "power/electric/ac", "power/electric"
 #define BADGE_POWER_ELECTRIC_DC "power/electric/dc", "power/electric"

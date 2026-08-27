@@ -52,6 +52,7 @@ STR_BADGE_BUILDER_23_AUGUST                 :'23 August' Bucharest Locomotive Wo
 STR_BADGE_BUILDER_AEG                       :Allgemeine Elektricitäts-Gesellschaft 'AEG'
 STR_BADGE_BUILDER_ALCO                      :American Locomotive Company 'ALCO'
 STR_BADGE_BUILDER_ALSTHOM                   :Alsthom
+STR_BADGE_BUILDER_ALSTOM                    :Alstom
 STR_BADGE_BUILDER_ANSALDO                   :Gio. Ansaldo & Co.
 STR_BADGE_BUILDER_ANSALDO_BREDA             :AnsaldoBreda
 STR_BADGE_BUILDER_BALDWIN                   :Baldwin Locomotive Works
@@ -67,6 +68,7 @@ STR_BADGE_BUILDER_CLYDE                     :Clyde Locomotive Company
 STR_BADGE_BUILDER_COMENG                    :Commonwealth Engineering 'COMENG'
 STR_BADGE_BUILDER_CROCHAT                   :Ateliers Henry Crochat
 STR_BADGE_BUILDER_CRRC                      :CRRC
+STR_BADGE_BUILDER_CRRC_SIFANG               :CRRC Qingdao Sifang
 STR_BADGE_BUILDER_CRRC_TANGSHAN             :CRRC Tangshan
 STR_BADGE_BUILDER_CRRC_ZUZHOU               :CRRC Zuzhou
 STR_BADGE_BUILDER_DOWNER                    :Downer Rail
@@ -101,6 +103,7 @@ STR_BADGE_BUILDER_KITSON                    :Kitson & Co.
 STR_BADGE_BUILDER_KOMAREK                   :Komarek Maschinenfabrik
 STR_BADGE_BUILDER_KRAUSS_MAFFEI             :Krauss-Maffei
 STR_BADGE_BUILDER_ORENSTEIN_KOPPEL          :Orenstein & Koppel
+STR_BADGE_BUILDER_PESA                      :Pesa
 STR_BADGE_BUILDER_LKM                       :Lokomotivbau 'Karl Marx' Babelsberg
 STR_BADGE_BUILDER_MAV                       :MÁV Northern Repair Works
 STR_BADGE_BUILDER_METRO_CAMMELL             :Metro-Cammell
@@ -669,7 +672,7 @@ str_electric_Brazil_FEPASA_2200             :FEPASA 2200 'Francesa' (Electric)
 str_electric_Chile_SQM_E650                 :SQM E650 (Electric)
 str_electric_Chile_EFE_E32                  :EFE E-32 (Electric)
 str_electric_USA_NYC_T_motor                :NYC T-motor (Electric)
-str_electric_USA_Pennsylvania_Railroad_DD1  :Pennsylvania Railroad DD1 (Electric)
+str_electric_USA_Pennsylvania_Railroad_DD1  :PRR DD1 (Electric)
 str_electric_France_SNCF_CC_7100            :SNCF CC 7100 (Electric)
 str_electric_Russia_RZD_F                   :RZD F (Electric)
 
@@ -831,6 +834,26 @@ str_emu_San_Marino_SVEFT_AB_01_04    :SVEFT AB01-04 'Trenino Biancazzuro' (EMU)
 str_emu_Malaysia_KTM_Class_93        :KTM Class 93 (EMU)
 str_emu_Sweden_SL_X15p               :SL X15p (EMU)
 str_emu_Switzerland_RhB_ABe_4_16_Capricorn  :RhB ABe 4/16 'Capricorn' (EMU)
+str_emu_Australia_Victorian_Railways_Comeng_EMU      :Victorian Railways 'Comeng' (EMU)
+str_emu_Australia_Victorian_Railways_HCMT_Munnel     :Victorian Railways 'HCMT' (EMU)
+str_emu_Australia_Victorian_Railways_Hitachi         :Victorian Railways 'Hitachi' (EMU)
+str_emu_Australia_Victorian_Railways_Harris          :Victorian Railways 'Harris' (EMU)
+str_emu_Australia_Victorian_Railways_Nexas           :Victorian Railways 'Nexas' (EMU)
+str_emu_Australia_Victorian_Railways_Tait            :Victorian Railways 'Tait' (EMU)
+str_emu_Chile_EFE_AEZ_40             :EFE AEZ-40 (EMU)
+str_emu_Australia_Victorian_Railways_4D_Train   :Victorian Railways '4D' (EMU)
+str_emu_Australia_Sydney_Trains_T_Set           :NSW State Rail Authority T set 'Tangara' (EMU)
+str_emu_New_Zealand_NZR_EMET_Ganz_Mavag         :NZR EM/ET 'Ganz-Mavag' (EMU)
+str_emu_New_Zealand_NZR_DMD                     :NZR DM/D 'English Electric' (EMU)
+str_emu_New_Zealand_NZR_FPFT_Matangi            :NZR FP/FT 'Matangi' (EMU)
+str_emu_Hong_Kong_MTR_SP1900                    :MTR SP1900 'Millenium Train' (EMU)
+str_emu_Chile_Chilean_SFB500_DEMU               :EFE SFB-500 (EMU)
+str_emu_Japan_JNR_Shinkansen_Series_100         :JNR Shinkansen Series 100 (EMU)
+str_emu_UK_BR_Class_895                         :BR 895 'HS2' (EMU)
+str_emu_Poland_PKP_ED161_Dart                   :PKP ED161 'Dart' (EMU)
+str_emu_USA_Pennsylvania_Railroad_MP_70         :PRR MP70 'Double-Decker' (EMU)
+str_emu_USA_Long_Island_Rail_Road_MP75_ACMU     :Long Island Rail Road MP75 'ACMU' (EMU)
+str_emu_USA_Pennsylvania_Railroad_MP54          :PRR MP54 (EMU)
 
 #Single Unit Metro
 str_singlemtro_USA_Brooklyn_Union_Gate_Car					:Brooklyn Union Gate Car (Single Unit Metro)
