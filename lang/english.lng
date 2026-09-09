@@ -55,6 +55,7 @@ STR_BADGE_BUILDER_ALSTHOM                   :Alsthom
 STR_BADGE_BUILDER_ALSTOM                    :Alstom
 STR_BADGE_BUILDER_ANSALDO                   :Gio. Ansaldo & Co.
 STR_BADGE_BUILDER_ANSALDO_BREDA             :AnsaldoBreda
+STR_BADGE_BUILDER_BABCOCK_WILCOX            :Babcock & Wilcox
 STR_BADGE_BUILDER_BALDWIN                   :Baldwin Locomotive Works
 STR_BADGE_BUILDER_BEYER_PEACOCK             :Beyer, Peacock & Co.
 STR_BADGE_BUILDER_BLH                       :Baldwin-Lima-Hamilton
@@ -75,6 +76,7 @@ STR_BADGE_BUILDER_DOWNER                    :Downer Rail
 STR_BADGE_BUILDER_DUBS                      :Dübs & Co.
 STR_BADGE_BUILDER_EE                        :English Electric
 STR_BADGE_BUILDER_EMD                       :Electro-Motive Division 'EMD'
+STR_BADGE_BUILDER_EUSKALDUNA                :Euskalduna
 STR_BADGE_BUILDER_FALCON                    :Falcon Engine & Car Works
 STR_BADGE_BUILDER_FERROSTAAL                :Ferrostaal
 STR_BADGE_BUILDER_FV_DEL_BAJIO              :Ferrovías del Bajío, S.A. de C.V.
@@ -87,6 +89,7 @@ STR_BADGE_BUILDER_GM                        :General Motors 'GM'
 STR_BADGE_BUILDER_GMD                       :General Motors Diesel 'GMD'
 STR_BADGE_BUILDER_GONINAN                   :A. Goninan & Co.
 STR_BADGE_BUILDER_HAIPHONG                  :Haiphong Carriage Company
+STR_BADGE_BUILDER_HANOMAG                   :Hannoversche Maschinenbau AG 'Hanomag'
 STR_BADGE_BUILDER_HENSCHEL                  :Henschel & Son
 STR_BADGE_BUILDER_HINKLEY                   :Hinkley Locomotive Works
 STR_BADGE_BUILDER_HITACHI                   :Hitachi Rail
@@ -106,6 +109,7 @@ STR_BADGE_BUILDER_ORENSTEIN_KOPPEL          :Orenstein & Koppel
 STR_BADGE_BUILDER_PESA                      :Pesa
 STR_BADGE_BUILDER_LKM                       :Lokomotivbau 'Karl Marx' Babelsberg
 STR_BADGE_BUILDER_MAV                       :MÁV Northern Repair Works
+STR_BADGE_BUILDER_MAVAG                     :MAVAG
 STR_BADGE_BUILDER_METRO_CAMMELL             :Metro-Cammell
 STR_BADGE_BUILDER_MTM                       :Maquinista Terrestre y Maritima 'MTM'
 STR_BADGE_BUILDER_MUNKTELLS                 :Munktells Mekaniska Verkstad
@@ -181,7 +185,7 @@ str_rbd_Germany_DB_670 							:DB 670 (Diesel Railbus)
 str_rbd_Lithuania_Lithuanian_Railways_AR2 		:Lithuanian Railways AR2 (Diesel Railbus)
 str_rbd_Austria_kkStB_19 :KkStB 19 (Diesel Railbus)
 str_rbd_USA_Virginia_Truckee_Motor_Car_22 :Virginia & Truckee Motor Car 22 (Diesel Railbus)
-str_rbd_Germany_Saxon_DET_1_2 :Saxon DET 1-2 (Diesel Railbus)
+str_rbd_Germany_Saxon_DET_1_2 :K.Sächs.Sts.E.B. DET No. 1-2 (Diesel Railbus)
 str_rbd_UK_WC_PR_Drewry_Railcar :WC&PR Drewry Railcar (Diesel Railbus)
 str_rbd_Germany_BSt_6001 :BSt 6001 (Diesel Railbus)
 str_rbd_Australia_Victorian_Railways_DERM :Victorian Railways DERM (Diesel Railbus)
@@ -240,7 +244,7 @@ str_steam_USA_4_4_0_American 		:4-4-0 'American' (Steam)
 str_steam_Switzerland_SBB_Ec_2_5 	:SBB Ec 2/5 (Steam)
 str_steam_USA_4_6_0_Ten_wheeler 	:4-6-0 'Ten-wheeler' (Steam)
 str_steam_USA_2_8_0_Consolidation 	:2-8-0 'Consolidation' (Steam)
-str_steam_Hungary_MAV_377 			:MAV 377 (Steam)
+str_steam_Hungary_MAV_XII 			:MAV XII (Steam)
 str_steam_Austria_KkStB_99 			:KkStB 99 (Steam)
 str_steam_UK_Caledonian_Railway_439	:Caledonian Railway 439 (Steam)
 str_steam_Switzerland_SBB_A_3_5 	:SBB A 3/5 (Steam)
@@ -260,7 +264,7 @@ str_steam_Germany_Prussian_S10 		:K.P.St.E. S 10 (Steam)
 str_steam_UK_LMS_5MT_Black_Five 	:LMS 5MT 'Black Five' (Steam)
 str_steam_Russia_RZD_9P 			:RZD 9P (Steam)
 str_steam_UK_LNER_A4_Gresley 		:LNER A4 'Gresley' (Steam)
-str_steam_Canada_CPR_Royal_Hudson 	:CPR 'Royal Hudson' (Steam)
+str_steam_Canada_CPR_H1c_Royal_Hudson 	:CPR H1c 'Royal Hudson' (Steam)
 str_steam_Denmark_DSB_E 			:DSB E (Steam)
 str_steam_Germany_DB_52 			:DB 52 (Steam)
 str_steam_UK_LNER_A1_Peppercorn 	:LNER A1 'Peppercorn' (Steam)
@@ -282,7 +286,7 @@ str_steam_Canada_Canadian_Pacific_374 :Canadian Pacific 374 (Steam)
 str_steam_South_Africa_PPR_35_tonner_4_6_0T :PPR 35-tonner 4-6-0T (Steam)
 str_steam_Switzerland_RhB_G_3_4 :RhB G 3/4 (Steam)
 str_steam_Spain_RENFE_Class_040 :RENFE 040 (Steam)
-str_steam_Germany_Saxon_IV_K :Saxon IV K (Steam)
+str_steam_Germany_Saxon_IV_K :K.Sächs.Sts.E.B. IV K (Steam)
 str_steam_Germany_Prussian_S_3 :K.P.St.E. S 3 (Steam)
 str_steam_Norway_NSB_Class_XXI :NSB XXI (Steam)
 str_steam_USA_PRR_D16 :PRR D16 (Steam)
@@ -290,7 +294,7 @@ str_steam_Netherlands_NS_8100 :NS 8100 (Steam)
 str_steam_South_Africa_SAR_MD_Class :SAR MD (Steam)
 str_steam_Namibia_South_West_African_2_8_0 :South West African 2-8-0 (Steam)
 str_steam_UK_LNER_N7 :LNER N7 (Steam)
-str_steam_Germany_Saxon_XX_HV :Saxon XX HV (Steam)
+str_steam_Germany_Saxon_XX_HV :K.Sächs.Sts.E.B. XX HV (Steam)
 str_steam_Belgium_NMBS_Type_7 :NMBS Type 7 (Steam)
 str_steam_Ireland_DSER_15 :DSER 15 (Steam)
 str_steam_USA_Sierra_Railroad_28 :Sierra Railroad 28 (Steam)
@@ -358,9 +362,12 @@ str_steam_Sweden_NJ_Forstlingen   :Norbergs Järnväg 'Förstlingen' (Steam)
 str_steam_Sweden_Gotland_1_3   :Gotlands Järnväg 1-3 (Steam)
 str_steam_Myanmar_Burma_Railways_C  :Burma Railways C (Steam)
 str_steam_Australia_Tasmanian_Government_M  :Tasmanian Government Railways M (Steam)
-str_steam_RDC_BCK_200 : BCK 200 'Katanga Mikado' (Steam)
+str_steam_RDC_BCK_200 :BCK 200 'Katanga Mikado' (Steam)
 str_steam_Mozambique_Mozambique_Railways_101_104    :Mozambique Railways No. 101-104 (Steam)
 str_steam_Ivory_Coast_Golwe_2_6_0_0_6_2 :Abidjan-Niger 2-6-0+0-6-2 'Golwe' (Steam)
+str_steam_Egypt_Egyptian_State_1    :Egyptian State Railways 1 (Steam)
+str_steam_Egypt_Egyptian_State_4    :Egyptian State Railways 4 (Steam)
+str_steam_Egypt_Egyptian_State_7    :Egyptian State Railways 7 (Steam)
 str_steam_Egypt_Egyptian_State_192  :Egyptian State Railways 192 (Steam)
 str_steam_Brazil_Maua_Railway_Baroneza :Maua Railway 'Baroneza' (Steam)
 str_steam_Argentina_FCO_No_1_La_Portena :FCO No. 1 'La Portena' (Steam)
@@ -384,6 +391,13 @@ str_steam_China_China_Railways_RM   :China Railways RM (Steam)
 str_steam_Australia_SAR_600         :South Australian Railways 600 (Steam)
 str_steam_Australia_SMR_10          :South Maitland Railways 10 (Steam)
 str_steam_Australia_VR_H220         :Victorian Railways H220 'Heavy Harry' (Steam)
+str_steam_Hungary_MAV_In            :MAV In (Steam)
+str_steam_Hungary_MAV_601           :MAV 601 (Steam)
+str_steam_Spain_MZA_1300            :MZA 1300 (Steam)
+str_steam_Spain_CA_100_Double_Pacific   :Central de Aragon 100 'Double Pacific' (Steam)
+str_steam_UK_GCR_8K                 :GCR 8K (Steam)
+str_steam_UK_LB_SCR_A1              :LB&SCR A1 (Steam)
+str_steam_Chile_ACNR_No_97_102      :ACN&R No. 97-102 (Steam)
 
 #Diesel
 str_diesel_Germany_DB_Kof_II							:DB Kof II / DB 322 (Diesel) 
@@ -399,7 +413,7 @@ str_diesel_Brazil_EFCB_ALCO_RS_3 						:EFCB ALCO RS-3 (Diesel)
 str_diesel_Netherlands_NS_600 							:NS 600 'Bakkie' (Diesel)
 str_diesel_USA_Pennsylvania_Railroad_RF_16_Sharknose 	:PRR RF-16 'Sharknose' (Diesel)
 str_diesel_Uruguay_AFE_1500 							:AFE 1500 (Diesel)
-str_diesel_Canada_CPR_Trainmaster 						:CPR 'Trainmaster' (Diesel)
+str_diesel_Canada_CPR_8900_Trainmaster 					:CPR 8900 'Trainmaster' (Diesel)
 str_diesel_Liberia_Liberia_Railways_Class_08 			:Liberia Railways 08 (Diesel)
 str_diesel_Austria_OBB_2060 							:OBB 2060 (Diesel)
 str_diesel_Canada_CNR_SW1200 							:CPR SW1200 (Diesel)
