@@ -71,6 +71,7 @@
 #define BADGE_REGION_PA "region/america", "region/america/central"
 #define BADGE_REGION_PL "region/europe",  "region/europe/eastern"
 #define BADGE_REGION_PE "region/america", "region/america/south"
+#define BADGE_REGION_PK "region/asia",    "region/asia/southern"
 #define BADGE_REGION_PT "region/europe",  "region/europe/southern"
 #define BADGE_REGION_PY "region/america", "region/america/south"
 #define BADGE_REGION_RO "region/europe",  "region/europe/eastern"

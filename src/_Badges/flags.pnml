@@ -70,6 +70,7 @@
 #define BADGE_FLAG_PA "flag/PA"
 #define BADGE_FLAG_PL "flag/PL"
 #define BADGE_FLAG_PE "flag/PE"
+#define BADGE_FLAG_PK "flag/PK"
 #define BADGE_FLAG_PT "flag/PT"
 #define BADGE_FLAG_PY "flag/PY"
 #define BADGE_FLAG_RO "flag/RO"
