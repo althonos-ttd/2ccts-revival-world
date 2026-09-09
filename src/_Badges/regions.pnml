@@ -45,6 +45,7 @@
 #define BADGE_REGION_IQ "region/asia",    "region/asia/western"
 #define BADGE_REGION_IR "region/asia",    "region/asia/southern"
 #define BADGE_REGION_IT "region/europe",  "region/europe/southern"
+#define BADGE_REGION_JM "region/america", "region/america/caribbean"
 #define BADGE_REGION_JP "region/asia",    "region/asia/eastern"
 #define BADGE_REGION_KE "region/africa",  "region/africa/eastern"
 #define BADGE_REGION_KP "region/asia",    "region/asia/eastern"

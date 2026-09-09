@@ -44,6 +44,7 @@
 #define BADGE_FLAG_IQ "flag/IQ"
 #define BADGE_FLAG_IR "flag/IR"
 #define BADGE_FLAG_IT "flag/IT"
+#define BADGE_FLAG_JM "flag/JM"
 #define BADGE_FLAG_JP "flag/JP"
 #define BADGE_FLAG_KE "flag/KE"
 #define BADGE_FLAG_KP "flag/KP"
