@@ -576,6 +576,9 @@ str_diesel_Argentina_ENT_RF_615_E   :ENT RF-615-E (Diesel)
 str_diesel_Serbia_JZ_D66_761    :JZ D66/761 (Diesel)
 str_diesel_USA_CNW_5000_A_B_EMC_E3  :North Western 5000A/B EMC E3 (Diesel)
 str_diesel_USA_AT_SF_EMD_FT         :AT&SF EMD FT (Diesel)
+str_diesel_Senegal_CFS_CC2480_GMD_GT22LC_2  :CFS CC2480 GMD GT22LC-2 (Diesel)
+str_diesel_Slovenia_SZ_661                  :SZ 661 'Kennedy' (Diesel)
+str_diesel_Mexico_CHP_1000_EMD_GP40         :CHP 1000 EMD GP40 (Diesel)
 
 #Electric
 str_electric_Switzerland_RhB_DE_2_2 			:RhB De 2/2 (Electric)
@@ -931,7 +934,7 @@ str_singlemtro_USA_Brooklyn_Union_Gate_Car					:Brooklyn Union Gate Car (Single 
 str_singlemtro_Hungary_Budapest_1894_Stock					:Budapest 1894 Stock (Single Unit Metro)
 str_singlemtro_USA_Chicago_L_Northwest_Elevated_1907_Stock	:Chicago L Northwest Elevated 1907 Stock (Single Unit Metro)
 str_singlemtro_Germany_Berlin_U_Bahn_C_II					:Berlin U-Bahn C II (Single Unit Metro)
-str_singlemtro_USA_NYC_MU_Car                               :NYC MU Car (Metro)
+str_singlemtro_USA_NYC_MU_Car                               :NYC MU Car (Single Unit Metro)
 
 #Multiple Unit Metro
 str_mtro_UK_London_1903_Stock					:London 1903 Stock (Metro)
