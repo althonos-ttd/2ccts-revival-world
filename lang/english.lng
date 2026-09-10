@@ -69,6 +69,8 @@ STR_BADGE_BUILDER_CLYDE                     :Clyde Locomotive Company
 STR_BADGE_BUILDER_COMENG                    :Commonwealth Engineering 'COMENG'
 STR_BADGE_BUILDER_CROCHAT                   :Ateliers Henry Crochat
 STR_BADGE_BUILDER_CRRC                      :CRRC
+STR_BADGE_BUILDER_CRRC_DALLIAN              :CRRC Dallian
+STR_BADGE_BUILDER_CRRC_QISHUYAN             :CRRC Qishuyan
 STR_BADGE_BUILDER_CRRC_SIFANG               :CRRC Qingdao Sifang
 STR_BADGE_BUILDER_CRRC_TANGSHAN             :CRRC Tangshan
 STR_BADGE_BUILDER_CRRC_ZUZHOU               :CRRC Zuzhou
@@ -166,7 +168,7 @@ str_rbs_Australia_Victorian_Railways_Motor_Car_3 :Victorian Railways Motor Car 3
 str_rbs_Austria_kkStB_4_0	:kkStB 4.0 (Steam Goods Railbus)
 str_rbs_Mali_Kayes_Niger_No_1   :Kayes-Niger No. 1 (Steam Railbus)
 str_rbs_Germany_Hessian_Ludwig_Thomas   :Hessian Ludwigsbahn 'Thomas' (Steam Railbus)
-str_rbs_Austria_NOLB_30_33  :NOLB No. 30-33
+str_rbs_Austria_NOLB_30_33  :NOLB No. 30-33 (Steam Railbus)
 
 #Railbus-diesel
 str_rbd_Australia_Victorian_Railways_AEC_RM1 	:Victorian Railways AEC RM1 (Diesel Railbus)
@@ -194,7 +196,7 @@ str_rbd_UK_WC_PR_Drewry_Railcar :WC&PR Drewry Railcar (Diesel Railbus)
 str_rbd_Germany_BSt_6001 :BSt 6001 (Diesel Railbus)
 str_rbd_Australia_Victorian_Railways_DERM :Victorian Railways DERM (Diesel Railbus)
 str_rbd_Czech_Republic_CD_M120 :CD M120 (Diesel Railbus)
-str_rbd_Germany_Schienenzeppelin :Schienenzeppelin (Diesel Railbus)
+str_rbd_Germany_Schienenzeppelin :DRG 'Schienenzeppelin' (Diesel Railbus)
 str_rbd_Denmark_DSB_MO :DSB MO (Diesel Railbus)
 str_rbd_Norway_NSB_Cmb_17 :NSB Cmb 17 (Diesel Railbus)
 str_rbd_Czech_Republic_CD_M290 :CD M290 (Diesel Railbus)
@@ -281,7 +283,7 @@ str_steam_Switzerland_SBB_C_5_6		:SBB C 5/6 (Steam)
 str_steam_USA_UP_4000_Big_Boy		:UP 4000 'Big Boy' (Steam)
 str_steam_Netherlands_NRS_11 :NRS 11 (Steam)
 str_steam_UK_GWR_Iron_DUKe_Class :GWR Iron Duke (Steam)
-str_steam_Australia_Sidney_Railway_Locomotive_No1 :Sydney Railway Locomotive No.1 (Steam)
+str_steam_Australia_Sidney_Railway_Locomotive_No1 :Sydney Railway Locomotive No. 1 (Steam)
 str_steam_USA_Central_Pacific_4_2_2 :Central Pacific 4-2-2 (Steam)
 str_steam_Netherlands_NS_700 :NS 700 (Steam)
 str_steam_South_Africa_Natal_Government_Railways_2_6_0T :Natal Government Railways 2-6-0T (Steam)
@@ -557,7 +559,6 @@ str_diesel_Poland_PKP_SU160 :PKP SU160 (Diesel)
 str_diesel_Australia_NSWR_41    :NSWR 41 (Diesel)
 str_diesel_Australia_NSWR_48    :NSWR 48 (Diesel)
 str_diesel_Australia_NSW_80     :NSW Public Transport Commission 80 (Diesel)
-str_diesel_Germany_DR_130       :DR 130 'Ludmilla' (Diesel)
 str_diesel_Germany_DR_V_180     :DR V 180 (Diesel)
 str_diesel_USA_NS_2500_EMD_SD70 :Norfolk Southern 2500 EMD SD70 (Diesel)
 str_diesel_Pakistan_Pakistan_Railways_GEU40_GE_ES43ACI   :Pakistan Railways GEU40 GE ES43ACI (Diesel)
@@ -567,6 +568,7 @@ str_diesel_New_Zealand_DA_Class :NZR DA EMD G12 (Diesel)
 str_diesel_New_Zealand_DB_Class :NZR DB EMD G8 (Diesel)
 str_diesel_Australia_Commonwealth_NSU   :Commonwealth Railways NSU (Diesel)
 str_diesel_Australia_Commonwealth_GM    :Commonwealth Railways GM EMD A16C (Diesel)
+str_diesel_Australia_Commonwealth_CL    :Commonwealth Railways CL (Diesel)
 str_diesel_Australia_NSW_42     :NSWR 42 EMD A7 (Diesel)
 str_diesel_Australia_Pacific_National_90    :Pacific National 90 EMD GT46CWM (Diesel)
 str_diesel_Australia_VR_W   :Victorian Railways W (Diesel)
@@ -579,6 +581,26 @@ str_diesel_USA_AT_SF_EMD_FT         :AT&SF EMD FT (Diesel)
 str_diesel_Senegal_CFS_CC2480_GMD_GT22LC_2  :CFS CC2480 GMD GT22LC-2 (Diesel)
 str_diesel_Slovenia_SZ_661                  :SZ 661 'Kennedy' (Diesel)
 str_diesel_Mexico_CHP_1000_EMD_GP40         :CHP 1000 EMD GP40 (Diesel)
+str_diesel_Belarus_BCh_TU7                  :BCh TU7 (Diesel)
+str_diesel_Denmark_DSB_MZ_III               :DSB MZ III (Diesel)
+str_diesel_Kenya_KR_93_GE_U26C              :KR 93 GE U26C (Diesel)
+str_diesel_Poland_PKP_SU45                  :PKP SU45 (Diesel)
+str_diesel_Poland_PKP_Lxd2                  :PKP Lxd2 (Diesel)
+str_diesel_Mongolia_UBTZ_GE_C30_7           :UBTZ GE C30-7 'Dash 7' (Diesel)
+str_diesel_USA_North_Western_8500_GE_C40_8  :North Western 8500 GE C40-8 'Dash 8' (Diesel)
+str_diesel_Australia_NSW_47                 :NSW Public Transport Commission 47 (Diesel)
+str_diesel_Germany_DR_132                   :DR 132 'Ludmilla' (Diesel)
+str_diesel_Germany_DR_V_100                 :DR V 100 (Diesel)
+str_diesel_Australia_AN_DL                  :Australian National DL (Diesel)
+str_diesel_Australia_V_Line_N               :V/Line N (Diesel)
+str_diesel_Australia_VR_B                   :Victorian Railways B (Diesel)
+str_diesel_Australia_BHP_6070_GE_AC6000CW   :BHP 6070 GE AC6000CW (Diesel)
+str_diesel_Australia_Roy_Hill_1000_GE_ES58ACi   :Roy Hill 1000 GE ES58ACi (Diesel)
+str_diesel_China_China_Railways_DF11            :China Railways DF11 (Diesel)
+str_diesel_China_China_Railways_DF4             :China Railways DF4 (Diesel)
+str_diesel_China_China_Railways_DF5             :China Railways DF5 (Diesel)
+str_diesel_Australia_TGR_Z                      :Tasmanian Government Railways Z (Diesel)
+str_diesel_Australia_QR_2350                :Queensland Railways 2350 (Diesel)
 
 #Electric
 str_electric_Switzerland_RhB_DE_2_2 			:RhB De 2/2 (Electric)
