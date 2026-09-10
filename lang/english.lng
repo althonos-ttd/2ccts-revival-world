@@ -77,6 +77,7 @@ STR_BADGE_BUILDER_DUBS                      :Dübs & Co.
 STR_BADGE_BUILDER_EE                        :English Electric
 STR_BADGE_BUILDER_EMD                       :Electro-Motive Division 'EMD'
 STR_BADGE_BUILDER_EUSKALDUNA                :Euskalduna
+STR_BADGE_BUILDER_FABLOK                    :Fablok
 STR_BADGE_BUILDER_FALCON                    :Falcon Engine & Car Works
 STR_BADGE_BUILDER_FERROSTAAL                :Ferrostaal
 STR_BADGE_BUILDER_FV_DEL_BAJIO              :Ferrovías del Bajío, S.A. de C.V.
@@ -111,12 +112,14 @@ STR_BADGE_BUILDER_LKM                       :Lokomotivbau 'Karl Marx' Babelsberg
 STR_BADGE_BUILDER_MAV                       :MÁV Northern Repair Works
 STR_BADGE_BUILDER_MAVAG                     :MAVAG
 STR_BADGE_BUILDER_METRO_CAMMELL             :Metro-Cammell
+STR_BADGE_BUILDER_MLW                       :Montreal Locomotive Works 'MLW'
 STR_BADGE_BUILDER_MTM                       :Maquinista Terrestre y Maritima 'MTM'
 STR_BADGE_BUILDER_MUNKTELLS                 :Munktells Mekaniska Verkstad
 STR_BADGE_BUILDER_NASMYTH_WILSON            :Nasmyth, Wilson & Co.
 STR_BADGE_BUILDER_NEILSON                   :Neilson & Co.
 STR_BADGE_BUILDER_NIIGATA                   :Niigata Transys
 STR_BADGE_BUILDER_NIPPON_SHARYO             :Nippon Sharyo
+STR_BADGE_BUILDER_NOHAB                     :Nydqvist och Holm AB 'NOHAB'
 STR_BADGE_BUILDER_NORTH_BRITISH             :North British Locomotive Company
 STR_BADGE_BUILDER_NZR                       :NZR Workshops
 STR_BADGE_BUILDER_NZR_ADDINGTON             :NZR Addington Workshops
@@ -137,6 +140,7 @@ STR_BADGE_BUILDER_STADLER                   :Stadler Rail
 STR_BADGE_BUILDER_SULZER                    :Sulzer
 STR_BADGE_BUILDER_SWS                       :Schweizerische Wagonsfabrik Schlieren 'Wagi'
 STR_BADGE_BUILDER_TOSHIBA                   :Toshiba
+STR_BADGE_BUILDER_TULLOCH                   :Tulloch Limited
 STR_BADGE_BUILDER_UCW                       :Union Carriage & Wagon 'UCW'
 STR_BADGE_BUILDER_UERDINGEN                 :Waggon-Fabrik AG Uerdingen
 STR_BADGE_BUILDER_VOSSLOH                   :Vossloh
@@ -259,7 +263,7 @@ str_steam_France_SNCF_141TA 		:SNCF 141TA (Steam)
 str_steam_UK_GWR_4900 				:GWR 4900 (Steam)
 str_steam_UK_GWR_5700 				:GWR 5700 (Steam)
 str_steam_Netherlands_NS_6300 		:NS 6300 (Steam)
-str_steam_USA_AT_SF_5000 			:AT&SF 5000 (Steam)
+str_steam_USA_AT_SF_5000 			:AT&SF No. 5000 'Madame Queen' (Steam)
 str_steam_Germany_Prussian_S10 		:K.P.St.E. S 10 (Steam)
 str_steam_UK_LMS_5MT_Black_Five 	:LMS 5MT 'Black Five' (Steam)
 str_steam_Russia_RZD_9P 			:RZD 9P (Steam)
@@ -406,7 +410,7 @@ str_diesel_Netherlands_NS_200 							:NS 200 'Sik' (Diesel)
 str_diesel_Germany_DB_270 								:WR 200 B 14 (Diesel)
 str_diesel_Switzerland_SBB_Am_4_6 						:SBB Am 4/6 (Diesel)
 str_diesel_Australia_NSWGR_79 							:NSWGR 79 (Diesel)
-str_diesel_USA_Western_Pacific_ALCO_S_2 				:Western Pacific ALCO S-2 (Diesel)
+str_diesel_Canada_Ontario_Northland_1200_ALCO_S_2   	:Ontario Northland 1200 ALCO S-2 (Diesel)
 str_diesel_USA_AT_SF_EMD_F3 							:AT&SF EMD F3 (Diesel)
 str_diesel_USA_UP_EMD_E8 								:UP EMD E8 (Diesel)
 str_diesel_Brazil_EFCB_ALCO_RS_3 						:EFCB ALCO RS-3 (Diesel)
@@ -485,6 +489,7 @@ str_diesel_Australia_NSWGR_44 :NSWGR 44 (Diesel)
 str_diesel_Zimbabwe_Zimbabwe_Railways_DH_1 :Zimbabwe Railways DH-1 (Diesel)
 str_diesel_South_Korea_Korail_6000_EMD_SD18 :Korail 6000 EMD SD18 (Diesel)
 str_diesel_Italy_FS_D345 :FS D.345 (Diesel)
+str_diesel_Norway_NSB_Di3 :NSB Di3 (Diesel)
 str_diesel_Norway_NSB_Di4 :NSB Di4 (Diesel)
 str_diesel_China_China_Railways_DF8 :China Railways DF8 (Diesel)
 str_diesel_Australia_Pacific_National_G_Class :Pacific National G (Diesel)
@@ -551,16 +556,26 @@ str_diesel_Congo_Congo_Ocean_BB_BB_300  :Congo-Ocean BB-BB 300 (Diesel)
 str_diesel_Poland_PKP_SU160 :PKP SU160 (Diesel)
 str_diesel_Australia_NSWR_41    :NSWR 41 (Diesel)
 str_diesel_Australia_NSWR_48    :NSWR 48 (Diesel)
+str_diesel_Australia_NSW_80     :NSW Public Transport Commission 80 (Diesel)
 str_diesel_Germany_DR_130       :DR 130 'Ludmilla' (Diesel)
 str_diesel_Germany_DR_V_180     :DR V 180 (Diesel)
 str_diesel_USA_NS_2500_EMD_SD70 :Norfolk Southern 2500 EMD SD70 (Diesel)
-str_diesel_Pakistan_Pakistan_Railways_9000_GE_ES43ACI   :Pakistan Railways 9000 GE ES43ACI (Diesel)
+str_diesel_Pakistan_Pakistan_Railways_GEU40_GE_ES43ACI   :Pakistan Railways GEU40 GE ES43ACI (Diesel)
+str_diesel_Pakistan_North_Western_ALPW16    :North-Western Railways ALPW16 ALCO DL-500 (Diesel)
 str_diesel_Australia_VR_T       :Victorian Railways T EMD G8C (Diesel)
 str_diesel_New_Zealand_DA_Class :NZR DA EMD G12 (Diesel)
 str_diesel_New_Zealand_DB_Class :NZR DB EMD G8 (Diesel)
+str_diesel_Australia_Commonwealth_NSU   :Commonwealth Railways NSU (Diesel)
 str_diesel_Australia_Commonwealth_GM    :Commonwealth Railways GM EMD A16C (Diesel)
 str_diesel_Australia_NSW_42     :NSWR 42 EMD A7 (Diesel)
 str_diesel_Australia_Pacific_National_90    :Pacific National 90 EMD GT46CWM (Diesel)
+str_diesel_Australia_VR_W   :Victorian Railways W (Diesel)
+str_diesel_Morocco_ONCF_DG_200  :ONCF DG 200 (Diesel)
+str_diesel_Zimbabwe_RR_DE2      :RR DE2 (Diesel)
+str_diesel_Argentina_ENT_RF_615_E   :ENT RF-615-E (Diesel)
+str_diesel_Serbia_JZ_D66_761    :JZ D66/761 (Diesel)
+str_diesel_USA_CNW_5000_A_B_EMC_E3  :North Western 5000A/B EMC E3 (Diesel)
+str_diesel_USA_AT_SF_EMD_FT         :AT&SF EMD FT (Diesel)
 
 #Electric
 str_electric_Switzerland_RhB_DE_2_2 			:RhB De 2/2 (Electric)
