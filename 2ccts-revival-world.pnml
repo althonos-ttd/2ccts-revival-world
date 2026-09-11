@@ -197,7 +197,7 @@ TRAIN(4071, steam_Germany_DB_18_201, DE, STEAM, STD,)
 TRAIN(4072, steam_South_Africa_PPR_35_tonner_4_6_0T, ZA, STEAM, NAR_CAPE)
 TRAIN(4073, steam_India_Fairy_Queen, IN, STEAM, BRD_INDIAN,)
 TRAIN(4074, steam_South_Africa_Harbour_Board_EL_0_4_0, ZA, STEAM, BRD_BRUNEL,)
-TRAIN(4075, steam_Japan_Horonai_Railway_7100, JP, STEAM, NAR_CAPE)
+TRAIN(4075, steam_Japan_Horonai_Railway_7100, JP, STEAM, NAR_CAPE, "builder/hk_porter")
 TRAIN(4076, steam_India_DHR_B, IN, STEAM, NAR_2FT,)
 TRAIN(4077, steam_Japan_JGR_860, JP, STEAM, NAR_CAPE)
 TRAIN(4078, steam_Mozambique_Beira_Railway_BR6_F2_Falcon, MZ, STEAM, NAR_2FT,)
@@ -274,7 +274,7 @@ TRAIN(4147, steam_Hungary_MAV_In, HU, STEAM, STD, "builder/mavag")
 TRAIN(4148, steam_Hungary_MAV_601, HU, STEAM, STD,)
 TRAIN(4149, steam_Italy_LVCI_No_1_50, IT, STEAM, STD,)
 TRAIN(4150, steam_Spain_CA_100_Double_Pacific, ES, STEAM, BRD_IBERIAN, "builder/babcock_wilcox", "builder/euskalduna")
-// TODO: item(FEAT_TRAINS, item_steam_koechlin_0_6_0_030, 4151) {}
+TRAIN(4151, steam_Spain_AGL_31_Perruca, ES, STEAM, BRD_IBERIAN, "builder/koechlin")
 TRAIN(4152, steam_Spain_MZA_1300, ES, STEAM, BRD_IBERIAN, "builder/hanomag", "builder/alco")
 TRAIN(4153, steam_Jamaica_Western_Jamaican_2_2_2_Patriot, JM, STEAM, STD)
 // Narrow-Gauge
@@ -442,7 +442,7 @@ TRAIN(5153, diesel_Australia_V_Line_N, AU, DIESEL, BRD_IRISH, "builder/clyde")
 // TRAIN(5154, diesel_Australia_NSW_81, AU, DIESEL, STD,)
 TRAIN(5155, diesel_Australia_V_Line_G, AU, DIESEL, BRD_IRISH,)
 TRAIN(5156, diesel_Australia_NSW_82, AU, DIESEL, STD, "builder/clyde")
-// TRAIN(5157, diesel_Australia_GML_10, AU, DIESEL, STD,)
+TRAIN(5157, diesel_Australia_Goldsworthy_GML_10, AU, DIESEL, STD, "builder/clyde")
 // TRAIN(5158, diesel_Australia_Westrail_S, AU, DIESEL, NAR_CAPE)
 TRAIN(5159, diesel_Australia_VR_B, AU, DIESEL, BRD_IRISH, "builder/clyde")
 TRAIN(5160, diesel_Slovenia_SZ_661, SI, DIESEL, STD, "builder/emd")
@@ -490,10 +490,10 @@ TRAIN(5201, diesel_Australia_Roy_Hill_1000_GE_ES58ACi, AU, DIESEL, STD, "builder
 TRAIN(5202, diesel_Belarus_BCh_TE10M, BY, DIESEL, BRD_RUSSIAN)
 TRAIN(5203, diesel_Ukraine_UZ_TE126, UA, DIESEL, BRD_RUSSIAN)
 TRAIN(5204, diesel_Ukraine_UZ_TE10Ut, UA, DIESEL, BRD_RUSSIAN)
-// item(FEAT_TRAINS, item_diesel_faur_a20dp, 5205) {}
+disable_item(FEAT_TRAINS, 5205); // wrong category of FAUR AD20-P
 TRAIN(5206, diesel_Poland_PKP_Lxd2, PL, DIESEL, NAR_750MM)
 TRAIN(5207, diesel_Belarus_BCh_TU7, BY, DIESEL, NAR_750MM)
-// item(FEAT_TRAINS, item_diesel_siemens_vectron_de, 5208) {}
+TRAIN(5208, diesel_Europe_RTS_247_Vectron_DE, europe, DIESEL, STD, "builder/siemens")
 // Narrow-Gauge
 TRAIN(5800, diesel_Chile_SQM_SW1200, CL, DIESEL, NAR_CAPE)
 TRAIN(5801, diesel_Indonesia_KAI_CC203, ID, DIESEL, NAR_CAPE)
@@ -661,8 +661,8 @@ TRAIN(6152, electric_Germany_DRG_E44, DE, ELECTRIC_AC, STD,)
 TRAIN(6153, electric_Poland_PKP_PESA_111MS, PL, ELECTRIC_AC, STD,)
 TRAIN(6154, electric_Azerbaijan_Azerbaijan_Railways_VL19, AZ, ELECTRIC_DC, BRD_RUSSIAN)
 TRAIN(6155, electric_Germany_DRG_E18, DE, ELECTRIC_AC, STD,)
-// TRAIN(6156, electric_acme_corp__hs001)
-// TRAIN(6157, electric_acme_corp__hs002)
+disable_item(FEAT_TRAINS, 6156); // ACME Corp. HS001
+disable_item(FEAT_TRAINS, 6157); // ACME Corp. HS002
 TRAIN(6158, electric_Poland_KWB_Konin_EL2, PL, ELECTRIC_DC, STD,)
 TRAIN(6159, electric_Poland_PKP_ET22, PL, ELECTRIC_DC, STD,)
 TRAIN(6160, electric_India_Indian_Railways_WAG_6B_C, IN, ELECTRIC_AC, BRD_INDIAN,)
@@ -679,8 +679,8 @@ TRAIN(6170, electric_USA_NYC_T_motor, US, ELECTRIC_DC, STD, "builder/alco", "bui
 TRAIN(6171, electric_USA_Pennsylvania_Railroad_DD1, US, ELECTRIC_DC, STD,)
 TRAIN(6172, electric_France_SNCF_CC_7100, FR, ELECTRIC_DC, STD,)
 TRAIN(6173, electric_Russia_RZD_F, RU, ELECTRIC_AC, BRD_RUSSIAN, "builder/alsthom")
-// TODO: TRAIN(6174, item_electric_siemens_vectron)
-// TODO: TRAIN(6175, item_electric_siemens_vectron_dual_mode)
+TRAIN(6174, electric_Europe_Railpool_193_Vectron_MS, europe, ELECTRIC_AC, STD, "builder/siemens")
+TRAIN(6175, dual_Europe_AlphaTrains_248_Vectron_DM, europe, DUAL, STD, "builder/siemens")
 // Narrow
 // TRAIN(electric_Slovakia_ZSSK_HGem_2_2, SK, ELECTRIC_DC, NAR_METRE,)
 // TRAIN(electric_Georgia_BBR_ChS11, GE, ELECTRIC_DC, "narrow/900mm")
@@ -738,7 +738,8 @@ TRAIN(7050, dmu_Ghana_Ghana_Railways_DEMU, GH, DIESEL, NAR_CAPE)
 TRAIN(7051, dmu_Australia_Queensland_Rail_Diesel_Tilt_Train, AU, DIESEL, NAR_CAPE)
 TRAIN(7052, dmu_Canada_UP_Express_Nippon_Sharyo_DMU, CA, DIESEL, STD, "builder/nippon_sharyo")
 // Revival
-TRAIN(7054, dmu_Argentina_FCGU_CMM_400_2, AR, DIESEL, STD,)
+TRAIN(7053, dmu_Argentina_FCGU_CMM_400_2, AR, DIESEL, STD,)
+// TODO: TRAIN(7054, dmu_ganz_arpad_bariloche_dmu, AR, DIESEL, NAR_METRE,)
 TRAIN(7055, dmu_Argentina_FA_CMU_4700_Transandino, AR, DIESEL, NAR_METRE,)
 TRAIN(7056, dmu_Australia_NSW_1100, AU, DIESEL, STD,)
 TRAIN(7057, dmu_Thailand_SRT_XPT_Concept, TH, DIESEL, NAR_METRE,)
@@ -748,8 +749,8 @@ TRAIN(7060, dmu_Australia_NSW_600, AU, DIESEL, STD,)
 TRAIN(7061, dmu_New_Zealand_RM_Silver_Fern, NZ, DIESEL, NAR_CAPE)
 TRAIN(7062, dmu_Hungary_MAV_M440_Hargita, HU, DIESEL, STD,)
 TRAIN(7063, dmu_Lithuania_Lithuanian_Railways_DR1A, LT, DIESEL, BRD_RUSSIAN)
-// TODO: TRAIN(7064, dmu_acme_corp__v200d_dmu, )
-disable_item(FEAT_TRAINS, 7065); // near-duplicate of 8038
+disable_item(FEAT_TRAINS, 7064); // ACME Corp. V200D
+disable_item(FEAT_TRAINS, 7065); // Stadler FLIRT w/ powerpack, near-duplicate of 8038
 // Narrow
 TRAIN(7800, dmu_France_CFC_X_97050, FR, DIESEL, NAR_METRE,)
 TRAIN(7801, dmu_Cambodia_Royal_Railway_ZZ_800, KH, DIESEL, NAR_METRE,)
@@ -839,10 +840,10 @@ TRAIN(8079, emu_Chile_EFE_AEZ_40, CL, ELECTRIC_DC, BRD_INDIAN, "builder/kawasaki
 // TODO: TRAIN(8081, emu_Australia_Tangara_V_Set_Hybrid, AU, ELECTRIC_DC, STD,)
 // TODO: TRAIN(8082, emu_Australia_Victorian_Railways_4D_Train, AU, ELECTRIC_DC, BRD_IRISH, "builder/goninan")
 TRAIN(8083, emu_Australia_Sydney_Trains_T_Set, AU, ELECTRIC_DC, STD,)
-// TODO: TRAIN(8084, emu_Australia_NSW_W, AU, ELECTRIC_DC, STD, "builder/comeng")
-// TODO: TRAIN(8085, emu_Australia_NSW_Standard, AU, ELECTRIC_DC, STD,)
-// TODO: TRAIN(8086, emu_Australia_NSW_Tulloch, AU, ELECTRIC_DC, STD,)
-disable_item(FEAT_TRAINS, 8087); // Duplicate of 8057
+TRAIN(8084, emu_Australia_NSW_Sputnik, AU, ELECTRIC_DC, STD, "builder/comeng")
+TRAIN(8085, emu_Australia_NSW_Standard, AU, ELECTRIC_DC, STD,)
+TRAIN(8086, emu_Australia_NSW_Tulloch, AU, ELECTRIC_DC, STD,)
+disable_item(FEAT_TRAINS, 8087); // Alstom X'trapolis Melbourne, duplicate of 8057
 TRAIN(8088, emu_New_Zealand_Tranz_Metro_EMET_Ganz_Mavag, NZ, ELECTRIC_DC, NAR_CAPE)
 TRAIN(8089, emu_New_Zealand_Tranz_Metro_DMD, NZ, ELECTRIC_DC, NAR_CAPE)
 TRAIN(8090, emu_New_Zealand_Tranz_Metro_FPFT_Matangi, NZ, ELECTRIC_DC, NAR_CAPE,)
@@ -850,11 +851,11 @@ TRAIN(8091, emu_Hong_Kong_MTR_SP1900, HK, ELECTRIC_AC, STD,)
 TRAIN(8092, emu_Chile_Chilean_SFB500_DEMU, CL, DUAL, BRD_INDIAN, "builder/crrc/sifang")
 TRAIN(8093, emu_Japan_JNR_Shinkansen_Series_100, JP, ELECTRIC_AC, STD,)
 TRAIN(8094, emu_UK_BR_Class_895, GB, ELECTRIC_AC, STD, "builder/hitachi", "builder/alstom")
-// TODO: TRAIN(8095, item_emu_acme_corp__v200e_emu)
+disable_item(FEAT_TRAINS, 8095); // ACME Corp V200E EMU
 TRAIN(8096, emu_Poland_PKP_ED161_Dart, PL, ELECTRIC_DC, STD, "builder/pesa")
 TRAIN(8097, emu_USA_Pennsylvania_Railroad_MP_70, US, ELECTRIC_DC, STD,)
 TRAIN(8098, emu_USA_Long_Island_Rail_Road_MP75_ACMU, US, ELECTRIC_DC, STD,)
-disable_item(FEAT_TRAINS, 8099); // Duplicate of 8100
+disable_item(FEAT_TRAINS, 8099); // PRR MP54 3RL, functional duplicate of 8100
 TRAIN(8100, emu_USA_Pennsylvania_Railroad_MP54, US, ELECTRIC_AC, STD,)
 // Narrow
 TRAIN(8800, emu_Spain_Euskotren_3500, ES, ELECTRIC_DC, NAR_METRE,)

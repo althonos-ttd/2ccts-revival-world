@@ -106,6 +106,7 @@ STR_BADGE_BUILDER_KALUGA                    :Kalugatransmash
 STR_BADGE_BUILDER_KAWASAKI                  :Kawasaki Heavy Industries
 STR_BADGE_BUILDER_KISHA_SEIZO               :Kisha Seizo
 STR_BADGE_BUILDER_KITSON                    :Kitson & Co.
+STR_BADGE_BUILDER_KOECHLIN                  :André Koechlin & Cie
 STR_BADGE_BUILDER_KOMAREK                   :Komarek Maschinenfabrik
 STR_BADGE_BUILDER_KRAUSS_MAFFEI             :Krauss-Maffei
 STR_BADGE_BUILDER_ORENSTEIN_KOPPEL          :Orenstein & Koppel
@@ -247,7 +248,7 @@ str_rbe_Germany_Buckower_Kleinbahn_Nr_1_3 :Buckower Kleinbahn No. 1-3 (Electric 
 str_rbe_Germany_DB_4792 :DB 479.2 (Electric Railbus)
 
 #Steam
-str_steam_Belgium_Le_Belge 			:Le Belge (Steam)
+str_steam_Belgium_Le_Belge 			:Bruxelles-Malines No. 6 'Le Belge' (Steam)
 str_steam_USA_4_4_0_American 		:4-4-0 'American' (Steam)
 str_steam_Switzerland_SBB_Ec_2_5 	:SBB Ec 2/5 (Steam)
 str_steam_USA_4_6_0_Ten_wheeler 	:4-6-0 'Ten-wheeler' (Steam)
@@ -329,7 +330,7 @@ str_steam_Kenya_East_African_Railway_21 :East African Railway 21 (Steam)
 str_steam_Zimbabwe_Zimbabwe_Railways_15 :Zimbabwe Railways 15 (Steam)
 str_steam_South_Africa_SAR_GMA_4_8_2_2_8_4 :SAR GMA 4-8-2+2-8-4 (Steam)
 str_steam_Kenya_East_African_Railway_31 :East African Railway 31 (Steam)
-str_steam_India_Fairy_Queen :Fairy Queen (Steam)
+str_steam_India_Fairy_Queen :EIR No. 22 'Fairy Queen' (Steam)
 str_steam_Japan_Horonai_Railway_7100 :Horonai Railway 7100 (Steam)
 str_steam_India_DHR_B :DHR B (Steam)
 str_steam_Japan_JGR_860 :JGR 860 (Steam)
@@ -406,6 +407,7 @@ str_steam_Spain_CA_100_Double_Pacific   :Central de Aragon 100 'Double Pacific' 
 str_steam_UK_GCR_8K                 :GCR 8K (Steam)
 str_steam_UK_LB_SCR_A1              :LB&SCR A1 (Steam)
 str_steam_Chile_ACNR_No_97_102      :ACN&R No. 97-102 (Steam)
+str_steam_Spain_AGL_31_Perruca      :AGL No. 31 'Perruca' (Steam)
 
 #Diesel
 str_diesel_Germany_DB_Kof_II							:DB Kof II / DB 322 (Diesel) 
@@ -613,6 +615,8 @@ str_diesel_Ireland_CIE_071                  :CIE 071 (Diesel)
 str_diesel_Australia_NSW_82                 :NSW State Rail Authority 82 (Diesel)
 str_diesel_Australia_QR_2170                :Queensland Railways 2170 (Diesel)
 str_diesel_Australia_NSW_40                 :NSWR 40 (Diesel)
+str_diesel_Australia_Goldsworthy_GML_10     :Goldsworthy Mining GML10 'Cinderella' (Diesel)
+str_diesel_Europe_RTS_247_Vectron_DE        :RTS 247 'Vectron DE' (Diesel)
 
 #Electric
 str_electric_Switzerland_RhB_DE_2_2 			:RhB De 2/2 (Electric)
@@ -783,8 +787,10 @@ str_electric_USA_NYC_T_motor                :NYC T-motor (Electric)
 str_electric_USA_Pennsylvania_Railroad_DD1  :PRR DD1 (Electric)
 str_electric_France_SNCF_CC_7100            :SNCF CC 7100 (Electric)
 str_electric_Russia_RZD_F                   :RZD F (Electric)
+str_electric_Europe_Railpool_193_Vectron_MS :Railpool 193 'Vectron MS' (Electric)
 
 #Dual Mode
+str_dual_Europe_AlphaTrains_248_Vectron_DM  :Alpha Trains 248 'Vectron DM' (Dual Mode)
 str_dual_Ecuador_FEEP_TD2000    :FEEP TD2000 (Dual Mode)
 str_dual_Spain_FGC_257          :FGC 257 (Dual Mode)
 str_dual_Slovakia_ZSSK_HGem_2_2 :ZSSK 485.9 (Dual Mode)
@@ -878,7 +884,7 @@ str_emu_Japan_JNR_Shinkansen_Series_0 		:JNR Shinkansen Series 0 (EMU)
 str_emu_Switzerland_SBB_RABDe_510 			:SBB RABDe 510 (EMU)
 str_emu_Denmark_DSB_S_Tog_II 				:DSB S-Tog II (EMU)
 str_emu_Germany_DB_ET420 					:DB 420 (EMU)
-str_emu_Australia_Sydney_Trains_S_Set 		:Sydney Trains S-set (EMU)
+str_emu_Australia_Sydney_Trains_S_Set 		:Sydney Trains S Set (EMU)
 str_emu_Netherlands_NS_Plan_Y 				:NS Plan Y (EMU)
 str_emu_Finland_VR_Sm2 						:VR Sm2 (EMU)
 str_emu_Netherlands_NS_ICM_4000 			:NS ICM 4000 (EMU)
@@ -950,7 +956,7 @@ str_emu_Australia_Victorian_Railways_Nexas           :Victorian Railways 'Nexas'
 str_emu_Australia_Victorian_Railways_Tait            :Victorian Railways 'Tait' (EMU)
 str_emu_Chile_EFE_AEZ_40             :EFE AEZ-40 (EMU)
 str_emu_Australia_Victorian_Railways_4D_Train   :Victorian Railways '4D' (EMU)
-str_emu_Australia_Sydney_Trains_T_Set           :NSW State Rail Authority T set 'Tangara' (EMU)
+str_emu_Australia_Sydney_Trains_T_Set           :NSW State Rail Authority T Set 'Tangara' (EMU)
 str_emu_New_Zealand_Tranz_Metro_EMET_Ganz_Mavag :Tranz Metro EM/ET 'Ganz-Mavag' (EMU)
 str_emu_New_Zealand_Tranz_Metro_DMD             :Tranz Metro DM/D 'English Electric' (EMU)
 str_emu_New_Zealand_Tranz_Metro_FPFT_Matangi    :Tranz Metro FP/FT 'Matangi' (EMU)
@@ -962,6 +968,9 @@ str_emu_Poland_PKP_ED161_Dart                   :PKP ED161 'Dart' (EMU)
 str_emu_USA_Pennsylvania_Railroad_MP_70         :PRR MP70 'Double-Decker' (EMU)
 str_emu_USA_Long_Island_Rail_Road_MP75_ACMU     :Long Island Rail Road MP75 'ACMU' (EMU)
 str_emu_USA_Pennsylvania_Railroad_MP54          :PRR MP54 (EMU)
+str_emu_Australia_NSW_Standard                  :NSWGR 'Standard' (EMU)
+str_emu_Australia_NSW_Tulloch                   :NSWGR 'Tulloch' (EMU)
+str_emu_Australia_NSW_Sputnik                   :NSWGR 'Sputnik' (EMU)
 
 #Single Unit Metro
 str_singlemtro_USA_Brooklyn_Union_Gate_Car					:Brooklyn Union Gate Car (Single Unit Metro)
