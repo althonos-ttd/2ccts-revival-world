@@ -173,9 +173,9 @@ str_rbs_Austria_NOLB_30_33  :NOLB No. 30-33 (Steam Railbus)
 
 #Railbus-diesel
 str_rbd_Australia_Victorian_Railways_AEC_RM1 	:Victorian Railways AEC RM1 (Diesel Railbus)
-str_rbd_Germany_DB_VT_133 						:DB VT 133 'Wismar railbus' (Diesel Railbus)
+str_rbd_Germany_DB_VT_133 						:DR VT 133 'Wismar railbus' (Diesel Railbus)
 str_rbd_United_Kingdom_GWR_AEC_Railcar 			:GWR AEC Railcar (Diesel Railbus)
-str_rbd_Austria_OBB_5042 						:OBB 5042 (Diesel Railbus)
+str_rbd_Austria_OBB_5042 						:BBO VT42 (Diesel Railbus)
 str_rbd_New_Zealand_NZR_RM31 					:NZR RM31 'Tokomaru' (Diesel Railbus)
 str_rbd_Portugal_CP_0100 						:CP 0100 (Diesel Railbus)
 str_rbd_USA_Amtrak_Budd_RDC 					:Amtrak Budd RDC (Diesel Railbus)
@@ -275,7 +275,7 @@ str_steam_Russia_RZD_9P 			:RZD 9P (Steam)
 str_steam_UK_LNER_A4_Gresley 		:LNER A4 'Gresley' (Steam)
 str_steam_Canada_CPR_H1c_Royal_Hudson 	:CPR H1c 'Royal Hudson' (Steam)
 str_steam_Denmark_DSB_E 			:DSB E (Steam)
-str_steam_Germany_DB_52 			:DB 52 (Steam)
+str_steam_Germany_DB_52 			:DRB 52 (Steam)
 str_steam_UK_LNER_A1_Peppercorn 	:LNER A1 'Peppercorn' (Steam)
 str_steam_South_Africa_SAR_25 		:SAR 25 'Condenser' (Steam)
 str_steam_Russia_RZD_P36 			:RZD P36 (Steam)
@@ -314,8 +314,8 @@ str_steam_Egypt_ENR_1100 :ENR 1100 (Steam)
 str_steam_Japan_JNR_Class_E10 :JNR E10 (Steam)
 str_steam_UK_GWR_1600_Class :GWR 1600 (Steam)
 str_steam_Australia_Victorian_Railways_R_Class :Victorian Railways R (Steam)
-str_steam_Germany_DB_9977_79 :DB 99.77-79 (Steam)
-str_steam_Germany_DB_18_201 :DB 18 201 (Steam)
+str_steam_Germany_DB_9977_79 :RüKB 99.77-79 (Steam)
+str_steam_Germany_DB_18_201 :DR 18 201 (Steam)
 str_steam_New_Zealand_NZR_WAB :NZR WAB (Steam)
 str_steam_Australia_NSWGR_D57 :NSWGR D57 (Steam)
 str_steam_Australia_South_Australian_Railways_520 :South Australian Railways 520 (Steam)
@@ -410,7 +410,7 @@ str_steam_Chile_ACNR_No_97_102      :ACN&R No. 97-102 (Steam)
 str_steam_Spain_AGL_31_Perruca      :AGL No. 31 'Perruca' (Steam)
 
 #Diesel
-str_diesel_Germany_DB_Kof_II							:DB Kof II / DB 322 (Diesel) 
+str_diesel_Germany_DB_Kof_II							:DRG Kof II (Diesel)
 str_diesel_USA_CNJ_ALCo_GE_IR_Boxcab 					:CNJ ALCo-GE-IR Boxcab (Diesel)
 str_diesel_Netherlands_NS_200 							:NS 200 'Sik' (Diesel)
 str_diesel_Germany_DB_270 								:WR 200 B 14 (Diesel)
@@ -765,7 +765,7 @@ str_electric_Tanzania_TRC_E6800             :TRC E6800 (Electric)
 str_electric_Hungary_MAV_V63                :MAV V63 (Electric)
 str_electric_Australia_QR_3500              :Queensland Railways 3500/3600 (Electric)
 str_electric_Australia_NSW_85               :NSW State Rail Authority 85 (Electric)
-str_electric_Australia_NSW_86               :NSW State Rail Authority 86 (Electric) 
+str_electric_Australia_NSW_86               :NSW State Rail Authority 86 (Electric)
 str_electric_Australia_SRA_8650             :NSW State Rail Authority No. 8650 'Tri-Bo' (Electric)
 str_electric_Australia_NSW_46               :NSWR 46 (Electric)
 str_electric_Brazil_CPEF_No_320             :CPEF No. 320 (Electric)
@@ -797,12 +797,12 @@ str_dual_Spain_FGC_257          :FGC 257 (Dual Mode)
 str_dual_Slovakia_ZSSK_HGem_2_2 :ZSSK 485.9 (Dual Mode)
 
 #DMU
-str_dmu_Germany_DB_VT_040_Flying_Hamburger 	:DB VT 04.0 'Flying Hamburger' (DMU)
+str_dmu_Germany_DB_VT_040_Flying_Hamburger 	:DRG SVT 877 'Flying Hamburger' (DMU)
 str_dmu_Australia_NSWGR_Silver_City_Comet 	:NSWGR 'Silver City Comet' (DMU)
 str_dmu_Czech_Republic_CD_M131 				:CD M131 (DMU)
 str_dmu_Germany_DB_VT_085 					:DB VT 08.5 (DMU)
 str_dmu_Australia_Queensland_Rail_400 		:South Australian Railways 400 'Redhen' (DMU)
-str_dmu_Germany_DB_VT_115 					:DB VT11.5 / DB 601 'TEE' (DMU)
+str_dmu_Germany_DB_VT_115 					:DB VT11.5 'TEE' (DMU)
 str_dmu_Netherlands_NS_Plan_U_DE_III 		:NS Plan U DE-III (DMU)
 str_dmu_Canada_CNR_Turbo_Train 				:CNR 'Turbo Train' (DMU)
 str_dmu_Serbia_ZS_811 						:ZS 811 (DMU)
@@ -1190,7 +1190,7 @@ str_coach_Gen4_Bombardier_Bi_level 						:Bombardier Bi-level
 str_coach_Gen5_High_Speed_Coach 						:High Speed Coach
 str_coach_Gen5_Modern_Regional_Coach 					:Modern Regional Coach
 str_coach_Gen5_Modern_Commuter_Coach 					:Modern Commuter Coach
-str_coach_Gen5_Modern_Double_Decker_Coach 				:Modern Double Decker Coach 
+str_coach_Gen5_Modern_Double_Decker_Coach 				:Modern Double Decker Coach
 str_coach_Gen5_High_Speed_Double_Decker_IC2000 			:High Speed Double Decker (IC2000)
 str_coach_Gen5_High_Speed_Mail_Coach 					:High Speed Mail Coach
 str_coach_Gen5_Talgo_Pendular 							:Talgo Pendular
