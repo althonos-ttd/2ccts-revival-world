@@ -1,0 +1,201 @@
+{{GRF_TITLE}}
+===================================
+2cc Trains in NML (Revival) - World Patch
+
+----------
+0 Contents
+----------
+
+1   About
+2   General information
+    2.1  Requirements
+    2.2  Installation
+    2.3  Parameter settings
+    2.4  Usage
+3   Known issues
+4   Background information
+    4.1  Representation
+    4.2  History / Geography
+    4.3  Naming
+5   Frequently Asked Questions
+6   Credits
+7   Contact information
+    7.1  Bug reports
+    7.2  Other problems
+    7.3  General enquiries
+8   License
+9   Obtaining the source
+
+
+-------
+1 About
+-------
+
+Restore country and regions for engines from 2ccNML and 2ccNML (Revival) trains.
+
+{{GRF_TITLE}}
+MD5Hash:  {{GRF_MD5}}
+Version:  {{REPO_REVISION}}
+GRF ID:   "VN+W"
+
+
+---------------------
+2 General information
+---------------------
+
+2.1 Requirements
+----------------
+- OpenTTD 15.0, or higher
+- 2cc Trains in NML (Revival) 4.0, or higher.
+
+2.2 Installation
+----------------
+OpenTTD:
+	see http://wiki.openttd.org/NewGRF
+	Releases will be available from the ingame Online Content
+	
+
+--------------
+3 Known issues
+--------------
+
+
+------------------------
+4 Background information
+------------------------
+
+This patch is based off the 2cc Trains in NML set by Transportman 
+and the 2cc Narrow-Gauge in NML set by althonos. The goal is to
+bring consistency with the 2cc Narrow-Gauge in NML set.
+
+4.1 Representation
+------------------
+
+Similarly to the original 2cc Trains in NML set, the goal is to
+bring a broad representation of the trains of the world rather
+than necessarily assigning each engine to their most common operator. 
+For instance, the ``GE C30-7`` has been delivered in 305 units to the 
+National Railways of Mexico and in 2 units to the Ulaanbaatar Railway,
+yet, since Mongolia has no other locomotives available (so far),
+it receives the ``GE C30-7``.
+
+4.2 History / Geography
+-----------------------
+
+The country assignment refers to the modern-times country occupying the
+geographic region where the train was running. For instance, a locomotive
+operating in Silesia under Prussian administration would be assigned 
+to Poland rather than Germany.
+
+4.3 Naming
+----------
+
+Operator name should be the name *at introduction date*; for instance, pre-1975
+locomotives from Western Australia are classified under the reporting mark ``WAGR``
+(Western Australian Government Railways); post-1975 under the mark ``Westrail`` 
+following the name change.
+
+If possible, class designation is used (e.g. ``DB 182``), and if not the company
+running numbers with a prefix (e.g. ``Oriental Railway No. 12-20``). Unique 
+locomotives or series of vehicles without a consistent numbering scheme may be
+Engine naming follows the operator class and rolling number assignment rather than
+the manufacturer designation. For *relatively* widespread manufacturer names that are 
+used commonly instead of the operator designation, the name *may* be added as a nickname
+(e.g. ``DB 642 'Desiro'`` for the Siemens Desiro DMUs).
+
+The numbering describes the whole range, *unless* one of the locomotives has 
+outstanding qualities (e.g. a specific nickname, or is conserved in a museum); in which 
+case, the single locomotive may be used to name the whole class (e.g. ``AGL No. 31 'Perruca'``, 
+which has sister locomotives No. 29 and No. 30; however only No. 31 was nicknamed Perruca,
+and it is the only surviving member of that class, being conserved at the 
+Museo Nacional Ferroviario in Spain). 
+
+
+----------------------------
+5 Frequently Asked Questions
+----------------------------
+
+
+---------
+6 Credits
+---------
+
+The 2cc Trains in NML (Revival) set was developed by Viktor Nemeth, based off the
+original 2cc Trains in NML set by Transportman and additional contributors. 
+
+---------------------
+7 Contact information
+---------------------
+
+7.1 Bug reports
+---------------
+Please report any bugs you find at the
+  bug tracker: https://github.com/althonos/ttd-8bit-badges
+  or forum topic: https://www.tt-forums.net/viewtopic.php?t=92736
+
+Always included a detailed description of the bug, preferrably with
+screenshot and savegame. Also state the exact game version you're using, 
+as well as the version of this NewGRF.
+
+If you have a savegame that includes NewGRFs not available on OpenTTD's 
+Online Content, then please try to reproduce the bug in a new game 
+which has all NewGRFs easily accessible.
+
+If you're using a patched version of the game, please try to reproduce
+the bug on an official game build. If you can't reproduce the bug, then
+don't report it here but in the forum topic of the patch(pack) instead.
+
+
+7.2 Other problems
+------------------
+If you have any problems using this NewGRF that are not covered in the 
+Frequently Asked Questions above, then you can ask your questions in the
+forum topic: https://www.tt-forums.net/viewtopic.php?t=92736
+
+
+7.3 General enquiries
+---------------------
+
+If you have any queries that cannot be asked in the forum topic, then
+contact althonos via Private Message at www.tt-forums.net.
+
+
+---------
+8 License
+---------
+
+8-bit Badge Set
+Copyright (C) 2026 althonos
+Copyright (C) 2014 2cc Trains In NML team
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along
+with this program; if not, write to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+
+----------------------
+9 Obtaining the source
+----------------------
+
+The source code can be found on GitHub:
+    https://github.com/althonos/ttd-2ccts-revival-world
+
+
+The original 2cc Trains in NML source code is on the 
+OpenTTDCoop GitHub organization:
+    https://github.com/openttdcoop/2ccts
+
+
+The 2cc Trains in NML (Revival) source code is on GitHub
+as well:
+    https://github.com/nemethviktor/2ccts_revival
