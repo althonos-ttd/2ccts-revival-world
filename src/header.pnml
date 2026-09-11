@@ -13,6 +13,11 @@ if(grf_future_status("VN\01\01") == 1) {
         error(FATAL, MUST_LOAD_AFTER, "2cc Trains in NML (Revival)");
     }
 	engine_override("VN\01\01");
+} else if (grf_future_status("TM\01\01") == 1) {
+	if(!grf_order_behind("TM\01\01")) {
+        error(FATAL, MUST_LOAD_AFTER, "2cc Trains in NML");
+    }
+	engine_override("TM\01\01");
 } else {
     error(FATAL, USED_WITH, "2cc Trains in NML (Revival)");
 }
