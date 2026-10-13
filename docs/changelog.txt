@@ -1,6 +1,13 @@
 2cc Trains in NML (Revival) - World Patch changelog
 ===================================================
 
+v0.1.1 (2026-10-13)
+-------------------
+
+Added
++++++
+- Wagons and coaches from ``2ccts_revival``.
+
 v0.1.0 (2026-09-11)
 -------------------
 Initial release.
