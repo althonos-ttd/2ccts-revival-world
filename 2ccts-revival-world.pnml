@@ -437,7 +437,7 @@ TRAIN(5148, diesel_Australia_NSW_42, AU, DIESEL, STD, "builder/clyde")
 TRAIN(5149, diesel_Australia_AN_DL, AU, DIESEL, STD, "builder/clyde")
 TRAIN(5150, diesel_Australia_Pacific_National_90, AU, DIESEL, STD, "builder/emd", "builder/downer")
 TRAIN(5151, diesel_Australia_WAGR_Q_Class, AU, DIESEL, STD, "builder/clyde",)
-disable_item(5152); // Clyde JE28C concept
+disable_item(FEAT_TRAINS, 5152); // Clyde JE28C concept
 TRAIN(5153, diesel_Australia_V_Line_N, AU, DIESEL, BRD_IRISH, "builder/clyde")
 // TRAIN(5154, diesel_Australia_NSW_81, AU, DIESEL, STD,)
 TRAIN(5155, diesel_Australia_V_Line_G, AU, DIESEL, BRD_IRISH,)
@@ -960,10 +960,11 @@ METRO(9065, mtro_Germany_Berlin_BVG_H, DE)
 METRO(9066, mtro_Hungary_Budapest_G2, HU)
 METRO(9067, mtro_Poland_Varsaw_98B_Metropolis, PL)
 
-#define WAGON(ID, NAME) \
+#define WAGON(ID, NAME, ...) \
     item(FEAT_TRAINS, TRAIN_ITEM(NAME), ID) { \
         property { \
             track_type: [RAIL]; \
+            badges: [__VA_ARGS__]; \
         }\
     }
 
@@ -1018,7 +1019,7 @@ WAGON(11046, coach_Gen4_Russian_Intercity_Coach)
 WAGON(11047, coach_Gen4_Russian_Regional_Coach)
 WAGON(11048, coach_Gen4_Russian_Mail_Coach)
 WAGON(11049, coach_Gen4_Superliner_Coach)
-WAGON(11050, coach_Gen4_Superliner_California, , "attribute/push_pull")
+WAGON(11050, coach_Gen4_Superliner_California, "attribute/push_pull")
 WAGON(11051, coach_Gen4_Amfleet_Regional_Coach, "attribute/push_pull")
 WAGON(11052, coach_Gen4_Amfleet_Intercity_Coach)
 WAGON(11053, coach_Gen4_Comet_Commuter_Coach, "attribute/push_pull")
