@@ -16,7 +16,6 @@ item(FEAT_BADGES, badge_builder) {
 BUILDER_BADGE(23_august, "23_august", 23_AUGUST)
 BUILDER_BADGE(aeg, "aeg", AEG)
 BUILDER_BADGE(alco, "alco", ALCO)
-BUILDER_BADGE(alsthom, "alsthom", ALSTHOM)
 BUILDER_BADGE(alstom, "alstom", ALSTOM)
 BUILDER_BADGE(ansaldo_breda, "ansaldo_breda", ANSALDO_BREDA)
 BUILDER_BADGE(babcock_wilcox, "babcock_wilcox", BABCOCK_WILCOX)
