@@ -1,4 +1,8 @@
 badgetable {
+    /* Attributes */
+    "attribute/concept",
+    "attribute/push_pull",
+
     /* Locomotive builder */
     "builder",
     "builder/23_august",
