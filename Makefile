@@ -20,7 +20,7 @@ SHELL := /bin/bash
 ##################################################################
 
 # Definition of the grfs
-REPO_NAME           ?= 2cc Trains in NML (Revival) - World Patch
+REPO_NAME           ?= 2cc Trains in NML (World Patch)
 
 # This is the filename part common to the grf file, main source file and the tar name
 BASE_FILENAME       ?= 2ccts-revival-world
