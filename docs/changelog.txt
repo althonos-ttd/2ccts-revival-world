@@ -1,6 +1,13 @@
 2cc Trains in NML (Revival) - World Patch changelog
 ===================================================
 
+v0.1.2 (2026-10-17)
+-------------------
+
+Added
++++++
+- Badges for concept and push-pull vehicles.
+
 v0.1.1 (2026-10-13)
 -------------------
 

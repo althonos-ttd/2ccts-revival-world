@@ -1,6 +1,6 @@
 {{GRF_TITLE}}
 ===================================
-2cc Trains in NML (Revival) - World Patch
+2cc Trains in NML (World Patch)
 
 ----------
 0 Contents
@@ -84,8 +84,8 @@ it receives the ``GE C30-7``.
 
 The country assignment refers to the modern-times country occupying the
 geographic region where the train was running. For instance, a locomotive
-operating in Silesia under Prussian administration would be assigned 
-to Poland rather than Germany.
+operating in Silesia under Prussian administration in the 19th century would 
+be assigned to Poland rather than Germany.
 
 4.3 Naming
 ----------
@@ -98,12 +98,13 @@ following the name change.
 If possible, class designation is used (e.g. ``DB 182``), and if not the company
 running numbers with a prefix (e.g. ``Oriental Railway No. 12-20``). Unique 
 locomotives or series of vehicles without a consistent numbering scheme may be
+designated by their name in quotes (``Hessian Ludwigsbahn 'Thomas'``).
 Engine naming follows the operator class and rolling number assignment rather than
-the manufacturer designation. For *relatively* widespread manufacturer names that are 
-used commonly instead of the operator designation, the name *may* be added as a nickname
+the manufacturer designation where possible. For *relatively* widespread manufacturer names that 
+are used commonly instead of the operator designation, the name *may* be added as a nickname
 (e.g. ``DB 642 'Desiro'`` for the Siemens Desiro DMUs).
 
-The numbering describes the whole range, *unless* one of the locomotives has 
+The engine number should describ the whole class, *unless* one of the locomotives has 
 outstanding qualities (e.g. a specific nickname, or is conserved in a museum); in which 
 case, the single locomotive may be used to name the whole class (e.g. ``AGL No. 31 'Perruca'``, 
 which has sister locomotives No. 29 and No. 30; however only No. 31 was nicknamed Perruca,
@@ -115,6 +116,21 @@ Museo Nacional Ferroviario in Spain).
 5 Frequently Asked Questions
 ----------------------------
 
+5.1 Why this patch?
+-------------------
+
+The 2ccts revival patch did introduce many new trains, but also reverted to
+using manufacturer designations following discussion with other community members.
+While this is a sensible choice to be able to capture the distribution of some engines
+across many regions, it also diverts sensibly from the original NewGRF.
+
+The original 2cc Trains in NML features trains from all over the world, both famous and 
+more obscure ones. I really enjoyed playing this set to discover peculiar trains around 
+the world. 
+
+In addition, having specific country makes choosing from the very large list of available
+engines a bit easier, since you can filter by country (e.g. looking for the only "Bangladesh" 
+locomotive of the roaster is easier than remembering the exact GE model).
 
 ---------
 6 Credits
