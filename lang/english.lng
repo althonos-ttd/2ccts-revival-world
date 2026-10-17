@@ -797,7 +797,7 @@ str_dual_Spain_FGC_257          :FGC 257 (Dual Mode)
 str_dual_Slovakia_ZSSK_HGem_2_2 :ZSSK 485.9 (Dual Mode)
 
 #DMU
-str_dmu_Germany_DB_VT_040_Flying_Hamburger 	:DRG SVT 877 'Flying Hamburger' (DMU)
+str_dmu_Germany_DRG_SVT_877_Flying_Hamburger 	:DRG SVT 877 'Flying Hamburger' (DMU)
 str_dmu_Australia_NSWGR_Silver_City_Comet 	:NSWGR 'Silver City Comet' (DMU)
 str_dmu_Czech_Republic_CD_M131 				:CD M131 (DMU)
 str_dmu_Germany_DB_VT_085 					:DB VT 08.5 (DMU)
