@@ -80,6 +80,7 @@ STR_BADGE_BUILDER_EMD                       :Electro-Motive Division 'EMD'
 STR_BADGE_BUILDER_EUSKALDUNA                :Euskalduna
 STR_BADGE_BUILDER_FABLOK                    :Fablok
 STR_BADGE_BUILDER_FALCON                    :Falcon Engine & Car Works
+STR_BADGE_BUILDER_FAUR                      :FAUR
 STR_BADGE_BUILDER_FERROSTAAL                :Ferrostaal
 STR_BADGE_BUILDER_FV_DEL_BAJIO              :Ferrovías del Bajío, S.A. de C.V.
 STR_BADGE_BUILDER_FIAT                      :Fiat Ferroviari
@@ -222,6 +223,8 @@ str_rbd_France_Pithiviers_Toury_AT1     :Pithiviers-Toury AT1 (Diesel railbus)
 str_rbd_Cambodia_Royal_Railway_AS1000   :Royal Railway AS1000 (Diesel railbus)
 str_rbd_Hungary_MAV_Ikarus_260          :MAV Ikarus 260 (Diesel railbus)
 str_rbd_Malaysia_KTM_Ikarus_275         :KTM Ikarus 725.00 (Diesel railbus)
+str_rbd_Poland_PKP_MBxd2                :PKP MBxd2 (Diesel railbus)
+str_rbd_Poland_PKP_SN61                 :PKP SN61 (Diesel railbus)
 
 #Railbus-electric
 str_rbe_Switzerland_AB_CFe_3_3		:AB CFe 3/3 (Electric Railbus)
@@ -407,6 +410,7 @@ str_steam_UK_GCR_8K                 :GCR 8K (Steam)
 str_steam_UK_LB_SCR_A1              :LB&SCR A1 (Steam)
 str_steam_Chile_ACNR_No_97_102      :ACN&R No. 97-102 (Steam)
 str_steam_Spain_AGL_31_Perruca      :AGL No. 31 'Perruca' (Steam)
+str_steam_SNCF_4_160_A_1            :SNCF 4-160 A 1 (Steam)
 
 #Diesel
 str_diesel_Germany_DB_Kof_II							:DRG Kof II (Diesel)

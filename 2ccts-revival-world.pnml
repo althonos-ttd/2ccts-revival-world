@@ -98,6 +98,8 @@ TRAIN(2045, rbd_Eritrea_Eritrean_Railway_A62_70_Littorina, ER, DIESEL, NAR_ITMET
 TRAIN(2046, rbd_Italy_FS_ALn_668, IT, DIESEL, STD,)
 TRAIN(2047, rbd_Hungary_MAV_Ikarus_260, HU, DIESEL, STD, )
 TRAIN(2048, rbd_Malaysia_KTM_Ikarus_275, MY, DIESEL, NAR_METRE, )
+TRAIN(2049, rbd_Poland_PKP_MBxd2, PL, DIESEL, NAR_750MM, "builder/faur")
+TRAIN(2050, rbd_Poland_PKP_SN61, PL, DIESEL, STD, "builder/ganz_mavag")
 // Narrow-Gauge
 // TRAIN(rbd_Tunisia_SNCFT_YZ_661, TN, DIESEL, NAR_METRE,)
 // TRAIN(rbd_France_Pithiviers_Toury_AT1, FR, PETROL, "narrow/600mm")
@@ -277,6 +279,7 @@ TRAIN(4150, steam_Spain_CA_100_Double_Pacific, ES, STEAM, BRD_IBERIAN, "builder/
 TRAIN(4151, steam_Spain_AGL_31_Perruca, ES, STEAM, BRD_IBERIAN, "builder/koechlin")
 TRAIN(4152, steam_Spain_MZA_1300, ES, STEAM, BRD_IBERIAN, "builder/hanomag", "builder/alco")
 TRAIN(4153, steam_Jamaica_Western_Jamaican_2_2_2_Patriot, JM, STEAM, STD)
+TRAIN(4154, steam_SNCF_4_160_A_1, FR, STEAM, STD, "attribute/concept")
 // Narrow-Gauge
 // TRAIN(steam_USA_D_H_Stourbridge_Lion, US, STEAM, "narrow/4ft")
 // TRAIN(steam_USA_0_4_4_Forney, US, STEAM, NAR_2FT,)
@@ -491,9 +494,10 @@ TRAIN(5202, diesel_Belarus_BCh_TE10M, BY, DIESEL, BRD_RUSSIAN)
 TRAIN(5203, diesel_Ukraine_UZ_TE126, UA, DIESEL, BRD_RUSSIAN)
 TRAIN(5204, diesel_Ukraine_UZ_TE10Ut, UA, DIESEL, BRD_RUSSIAN)
 disable_item(FEAT_TRAINS, 5205); // wrong category of FAUR AD20-P
-TRAIN(5206, diesel_Poland_PKP_Lxd2, PL, DIESEL, NAR_750MM)
-TRAIN(5207, diesel_Belarus_BCh_TU7, BY, DIESEL, NAR_750MM)
-TRAIN(5208, diesel_Europe_RTS_247_Vectron_DE, europe, DIESEL, STD, "builder/siemens")
+TRAIN(5206, diesel_Belarus_BCh_TU7, BY, DIESEL, NAR_750MM)
+TRAIN(5207, diesel_Europe_RTS_247_Vectron_DE, europe, DIESEL, STD, "builder/siemens")
+// TRAIN(5206, diesel_Poland_PKP_Lxd2, PL, DIESEL, NAR_750MM)
+
 // Narrow-Gauge
 TRAIN(5800, diesel_Chile_SQM_SW1200, CL, DIESEL, NAR_CAPE)
 TRAIN(5801, diesel_Indonesia_KAI_CC203, ID, DIESEL, NAR_CAPE)
@@ -869,9 +873,9 @@ TRAIN(8804, emu_Sweden_SL_X15p, SE, ELECTRIC_DC, NAR_SE3FT)
 TRAIN(15501, cargodmu_Germany_DB_691_CargoSprinter, DE, DIESEL, STD,)
 
 //Cargo EMU
-TRAIN(19000, cargoemu_Japan_JR_Freight_M250, JP, ELECTRIC_DC, NAR_CAPE)
-disable_item(FEAT_TRAINS, 19001); // ACME Corp. DD CargoEMU
-TRAIN(19002, cargoemu_Japan_JNR_Container_Bullet_Train, JP, ELECTRIC_DC, NAR_CAPE, "attribute/concept")
+TRAIN(14500, cargoemu_Japan_JR_Freight_M250, JP, ELECTRIC_DC, NAR_CAPE)
+disable_item(FEAT_TRAINS, 14501); // ACME Corp. DD CargoEMU
+TRAIN(14502, cargoemu_Japan_JNR_Container_Bullet_Train, JP, ELECTRIC_DC, NAR_CAPE, "attribute/concept")
 
 #define METRO(ID, NAME, COUNTRY, ...) \
     item(FEAT_TRAINS, TRAIN_ITEM(NAME), ID) { \
@@ -1129,27 +1133,6 @@ WAGON(12045, wagon_Service_Car_Type1)
 WAGON(12046, wagon_Service_Car_Type2)
 WAGON(12047, wagon_Gen3_Boxcar_Type2)
 WAGON(12048, wagon_Gen4_Boxcar_Type2)
-WAGON(12049, wagon_gen6_flatcar)
-WAGON(12050, wagon_gen6_heavy_flatcar)
-WAGON(12051, wagon_gen6_boxcar_type1)
-WAGON(12052, wagon_gen6_tanker)
-WAGON(12053, wagon_gen6_gondola)
-WAGON(12054, wagon_gen6_silo_type1)
-WAGON(12055, wagon_gen6_hopper_type1)
-WAGON(12056, wagon_gen6_car_transporter)
-WAGON(12057, wagon_gen6_container_carrier)
-WAGON(12058, wagon_gen6_centerbeam)
-WAGON(12059, wagon_gen6_container_doublestack)
-WAGON(12060, wagon_gen6_superheavy_flatcar)
-WAGON(12061, wagon_gen6_boxcar_type2)
-WAGON(12062, wagon_gen6_silo_type2)
-WAGON(12063, wagon_gen6_hopper_type2)
-WAGON(12064, wagon_gen1_livestock_van)
-WAGON(12065, wagon_gen2_livestock_van)
-WAGON(12066, wagon_gen3_livestock_van)
-WAGON(12067, wagon_gen4_livestock_van)
-WAGON(12068, wagon_gen5_livestock_van)
-WAGON(12069, wagon_gen6_livestock_van)
 // Revival
 WAGON(12049, wagon_Gen6_flatcar)
 WAGON(12050, wagon_Gen6_heavy_flatcar)
