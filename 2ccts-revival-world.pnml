@@ -803,7 +803,7 @@ TRAIN(8039, emu_Bulgaria_BDZ_10_Desiro, BG, ELECTRIC_AC, STD,)
 TRAIN(8040, emu_Australia_Sydney_Trains_OSCars, AU, ELECTRIC_DC, STD,)
 TRAIN(8041, emu_South_Africa_Gautrain_Electrostar, ZA, ELECTRIC_AC, STD,)
 TRAIN(8042, emu_Italy_NTV_AGV, IT, ELECTRIC_AC, STD, "builder/alstom")
-TRAIN(8043, emu_Netherlands_NS_4800_HSA, NL, ELECTRIC_DC, STD, "builder/ansaldo_breda")
+disable_item(FEAT_TRAINS, 8043); // Duplicate of 8055, NS Highspeed 
 TRAIN(8044, emu_Italy_NTV_AGV_Duplex, IT, ELECTRIC_DC, STD, "builder/alstom", "attribute/concept")
 TRAIN(8045, emu_USA_PRR_MP54, US, ELECTRIC_AC, STD,)
 TRAIN(8046, emu_Australia_Victorian_Railways_Swing_Door, AU, ELECTRIC_DC, BRD_IRISH,)
